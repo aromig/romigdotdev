@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="site-logo">
-        <Icon name="terminal" scale="1.25" />&nbsp;
+        <!-- <Icon name="terminal" scale="1.25" />&nbsp; -->
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </div>
       <NavMenu />

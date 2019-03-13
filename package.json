@@ -9,12 +9,11 @@
   "dependencies": {
     "gridsome": "^0.5.0",
     "@gridsome/source-filesystem": "^0.3.0",
-    "@gridsome/transformer-remark": "^0.2.1"
-  },
-  "devDependencies": {
+    "@gridsome/transformer-remark": "^0.2.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "typeface-roboto": "0.0.54",
     "vue-awesome": "^3.4.0"
-  }
+  },
+  "devDependencies": {}
 }

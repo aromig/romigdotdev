@@ -3,11 +3,11 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 require("typeface-roboto");
-import Icon from "vue-awesome/components/Icon";
-import "vue-awesome/icons";
+//import Icon from "vue-awesome/components/Icon";
+//import "vue-awesome/icons";
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
-  Vue.component("Icon", Icon);
+  //Vue.component("Icon", Icon);
 }
