@@ -25,6 +25,7 @@ export default {
 
 <style lang="scss">
 .nav__link {
+  text-decoration: none;
   padding: 0;
   padding-bottom: 5px;
   font-size: 1rem;
@@ -78,6 +79,7 @@ export default {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #efefef;
+    transition: background 0.5s east-out;
   }
   #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
@@ -128,7 +130,6 @@ export default {
   }
 
   .nav__link {
-    text-decoration: none;
     color: #444;
     margin-left: 20px;
   }

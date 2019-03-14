@@ -12,6 +12,7 @@
         <slot />
       </main>
     </transition>
+    <Footer> </Footer>
   </div>
 </template>
 
@@ -25,10 +26,12 @@ query {
 
 <script>
 import NavMenu from "~/components/NavMenu.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
-    NavMenu
+    NavMenu,
+    Footer
   }
 };
 </script>
@@ -46,14 +49,14 @@ body {
     "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
   line-height: 1.5;
 }
 
 .layout {
   max-width: 760px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header {
@@ -62,6 +65,8 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
+  padding: 0 20px;
+  border-bottom: 0.5px solid #444;
 }
 
 .site-logo {
@@ -73,5 +78,9 @@ body {
       border-bottom: 0;
     }
   }
+}
+
+main {
+  padding: 0 15px;
 }
 </style>
