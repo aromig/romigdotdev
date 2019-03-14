@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="site-logo">
-        <!-- <Icon name="terminal" scale="1.25" />&nbsp; -->
+        <FA-Icon :icon="['fas', 'terminal']" scale="1.25"></FA-Icon>&nbsp;
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </div>
       <NavMenu />
