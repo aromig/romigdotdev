@@ -18,7 +18,10 @@ module.exports = {
       options: {
         path: "blog/**/*.md",
         typeName: "Post",
-        route: "/blog/:slug"
+        route: "/blog/:slug",
+        remark: {
+          plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
+        }
       }
     }
   ]
