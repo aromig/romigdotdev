@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="site-logo">
-        <FA-Icon :icon="['fas', 'terminal']" scale="1.25"></FA-Icon>&nbsp;
+        <FA-Icon :icon="['fas', 'terminal']" class="fa-sm"></FA-Icon>&nbsp;
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </div>
       <NavMenu />
@@ -52,11 +52,15 @@ body {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
   line-height: 1.5;
+  height: 100vh;
 }
 
 .layout {
   max-width: 760px;
   margin: 0 auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -81,6 +85,7 @@ body {
 }
 
 main {
+  flex: 1;
   padding: 0 15px;
 }
 </style>

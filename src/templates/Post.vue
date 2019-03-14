@@ -4,6 +4,7 @@
     <h3 class="post-excerpt">{{ $page.post.excerpt }}</h3>
     <p class="post-date">{{ $page.post.date }}</p>
     <div class="post-content" v-html="$page.post.content" />
+    <InfoCard />
   </Layout>
 </template>
 
@@ -18,8 +19,13 @@ query Post ($path: String!) {
 }
 </page-query>
 
-<script scoped>
+<script>
+import InfoCard from "~/components/InfoCard.vue";
+
 export default {
+  components: {
+    InfoCard
+  },
   metaInfo() {
     return {
       title: this.$page.post.title

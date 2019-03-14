@@ -16,13 +16,13 @@
         </g-link>
       </div>
     </div>
-    <Pager :info="$page.posts.pageInfo" />
+    <Pager :info="$page.posts.pageInfo" class="pager" />
   </Layout>
 </template>
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (perPage: 5, page: $page) @paginate {
+  posts: allPost (perPage: 3, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -85,5 +85,36 @@ export default {
 .post-title {
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+.pager {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.pager a {
+  color: #369;
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 25px;
+  margin: 0 5px;
+  text-align: center;
+
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+  &.active {
+    border-bottom: 1px dashed rgba(51, 102, 153, 0.5);
+  }
+  &:hover {
+    border-bottom: 1px solid #369;
+    transition: border-bottom 0.3s;
+  }
+}
+
+@media (max-width: 700px) {
+  .pager {
+    width: 100%;
+  }
 }
 </style>
