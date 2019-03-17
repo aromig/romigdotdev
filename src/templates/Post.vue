@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h2 class="post-title">{{ $page.post.title }}</h2>
-    <h3 class="post-excerpt">{{ $page.post.excerpt }}</h3>
+    <p class="post-excerpt">{{ $page.post.excerpt }}</p>
     <p class="post-date">{{ $page.post.date }}</p>
     <div class="post-content" v-html="$page.post.content" />
     <InfoCard />
@@ -37,13 +37,8 @@ export default {
 <style lang="scss">
 .post-content p,
 .post-content li {
-  font-size: 1.2rem;
-  font-family: "Segoe UI";
-}
-
-h2,
-h3 {
-  font-weight: 400;
+  // font-size: 1.2rem;
+  // font-family: "Segoe UI";
 }
 
 .post-title {
@@ -52,12 +47,12 @@ h3 {
 }
 
 .post-excerpt {
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .post-date {
-  border-left: 1px solid #ccc;
-  padding-left: 15px;
+  font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
 }
 
 .post-content a {

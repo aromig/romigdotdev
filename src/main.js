@@ -4,7 +4,11 @@
 import DefaultLayout from "~/layouts/Default.vue";
 require("typeface-roboto");
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faTerminal } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTerminal,
+  faPenFancy,
+  faAsterisk
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithub,
@@ -13,7 +17,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faTerminal, faLinkedin, faGithub, faCodepen, faTwitter);
+library.add(
+  faTerminal,
+  faPenFancy,
+  faAsterisk,
+  faLinkedin,
+  faGithub,
+  faCodepen,
+  faTwitter
+);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component

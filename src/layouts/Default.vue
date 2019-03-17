@@ -12,7 +12,7 @@
         <slot />
       </main>
     </transition>
-    <Footer> </Footer>
+    <Footer :profile="profile" />
   </div>
 </template>
 
@@ -29,6 +29,16 @@ import NavMenu from "~/components/NavMenu.vue";
 import Footer from "~/components/Footer.vue";
 
 export default {
+  data: () => {
+    return {
+      profile: {
+        linkedin: "adamromig",
+        github: "aromig",
+        codepen: "penguingeek",
+        twitter: "penguingeek"
+      }
+    };
+  },
   components: {
     NavMenu,
     Footer
@@ -45,31 +55,36 @@ export default {
 }
 
 body {
-  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
   line-height: 1.5;
   height: 100vh;
+  background: linear-gradient(45deg, #111, #444) no-repeat fixed;
 }
 
 .layout {
-  max-width: 760px;
+  max-width: 700px;
   margin: 0 auto;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
   margin-bottom: 20px;
+  width: 660px;
   height: 80px;
   padding: 0 20px;
+  background-color: #fff;
   border-bottom: 0.5px solid #444;
 }
 
@@ -86,6 +101,42 @@ body {
 
 main {
   flex: 1;
-  padding: 0 15px;
+  margin-top: 80px;
+  padding: 0 50px;
+}
+
+p,
+li,
+form {
+  font-size: 1.1rem;
+  font-weight: 300;
+  // font-family: "Segoe UI";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: #369;
+}
+
+@media (max-width: 700px) {
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+  main {
+    padding: 0 20px;
+  }
 }
 </style>

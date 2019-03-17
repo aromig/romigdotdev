@@ -1,19 +1,24 @@
 <template>
   <Layout>
-    <h2>Blog</h2>
+    <h2>Recent Articles</h2>
+    <p>
+      I like to write about things that I am currently learning or have been
+      working on. If posts seem few and far between - I'll work on that, too.
+    </p>
     <div class="post-list">
       <div
         v-for="post in $page.posts.edges"
         :key="post.node.id"
         class="post-item"
       >
-        <g-link :to="post.node.path">
-          <span class="post-title">{{ post.node.title }}</span>
-          <br />
-          {{ post.node.date }}
-          <br />
-          <p>{{ post.node.excerpt }}</p>
-        </g-link>
+        <g-link
+          :to="post.node.path"
+          class="post-title"
+          :aria-label="`Read more about ${post.node.title}`"
+          >{{ post.node.title }}</g-link
+        >
+        <div class="post-date">{{ post.node.date }}</div>
+        <p class="post-excerpt">{{ post.node.excerpt }}</p>
       </div>
     </div>
     <Pager :info="$page.posts.pageInfo" class="pager" />
@@ -22,7 +27,7 @@
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (perPage: 3, page: $page) @paginate {
+  posts: allPost (perPage: 4, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -63,26 +68,29 @@ export default {
   list-style-type: none;
   & a {
     text-decoration: none;
-    color: #444;
+    color: #369;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+    &:hover {
+      border-bottom: 1px solid #369;
+      transition: border-bottom 0.3s;
+    }
   }
 }
 
 .post-item {
-  border-left: 1px solid #ccc;
-  padding-left: 15px;
-  &:hover {
-    border-left: 1px solid #369;
-    padding-left: 15px;
-  }
-  &:hover a {
-    color: #369;
-  }
-  & a {
-    display: block;
-  }
+  // border-left: 1px solid #ccc;
+  // padding-left: 15px;
+  // &:hover {
+  //   border-left: 1px solid #369;
+  // }
+  // &:hover a {
+  //   color: #369;
+  // }
 }
 
 .post-title {
+  font-family: Roboto;
   font-size: 1.2rem;
   font-weight: 400;
 }

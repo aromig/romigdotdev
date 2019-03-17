@@ -29,6 +29,7 @@ export default {
   padding: 0;
   padding-bottom: 5px;
   font-size: 1rem;
+  font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s;
   &:hover {
@@ -42,14 +43,14 @@ export default {
     position: relative;
     z-index: 1;
     user-select: none;
+    top: 0;
+    left: -50px;
   }
   #menuToggle input {
     display: block;
     width: 40px;
     height: 32px;
     position: absolute;
-    top: -7px;
-    left: -5px;
 
     cursor: pointer;
     opacity: 0;
@@ -90,9 +91,9 @@ export default {
   }
   #menu {
     position: absolute;
-    width: 150px;
-    margin: -70px 0 0 -200px;
-    padding: 25px 50px;
+    width: 200px;
+    margin: -60px 0 0 -200px;
+    padding: 25px 25px;
     background: rgba(0, 0, 0, 0.8);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
     list-style-type: none;
@@ -105,6 +106,7 @@ export default {
   #menu li {
     padding: 10px 0;
     & a {
+      display: block;
       color: #efefef;
       &:hover {
         border-bottom: 1px solid #fff;
@@ -116,7 +118,7 @@ export default {
   }
 }
 
-@media (min-width: 701px) {
+@media (min-width: 700px) {
   .nav input[type="checkbox"],
   .nav span {
     display: none;
