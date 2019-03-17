@@ -54,4 +54,6 @@ I am glad I had the opportunity and time to take part of this almost month-long 
 
 I’m going to participate again this coming December and in the meantime find other coding challenges to keep practiced. I’ve already started doing the 2016 version of AoC.
 
-If you want to see my code for AoC 2017, take a look at [my repository](https://github.com/aromig/advent2017) for it on GitHub. There’s definitely room for improvement, but for this event it all works fairly quickly.
+If you want to see my code for AoC 2017, take a look at my repository on GitHub. There’s definitely room for improvement, but for this event it all works fairly quickly.
+
+[Github Repository](https://github.com/aromig/advent2017)
