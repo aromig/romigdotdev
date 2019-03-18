@@ -52,7 +52,7 @@
         I am currently learning about
         <a href="https://vuejs.org" aria-label="Learn more about Vue JS">Vue.js</a> and I am
         finding that its implementation of a front-end framework meshes very
-        well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com">Vue Mastery</a> and developing this very site has given me a lot of practice in working with Vue and component-based structure.
+        well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com">Vue Mastery</a> and developing this very site have given me a lot of practice in working with Vue and component-based structure.
       </p>
     </div>
     <div class="this_site">
