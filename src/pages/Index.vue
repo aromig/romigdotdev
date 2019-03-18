@@ -1,13 +1,21 @@
 <template>
   <Layout>
+    <div class="intro">
+      <p>
+        Hello! I am a full-stack developer located in Dayton, Ohio. I enjoy
+        coding &amp; learning what I can in order to make my team's and
+        customers' lives easier.
+      </p>
+    </div>
     <div
       v-for="post in $page.posts.edges"
       :key="post.node.id"
       class="latest-post"
     >
-      <h2>Latest Post</h2>
+      <h2>Latest Writing</h2>
       <g-link :to="post.node.path">
-        <span class="post-title">{{ post.node.title }}</span>
+        <g-image class="latest-post-cover" :src="post.node.cover" />
+        <span class="latest-post-title">{{ post.node.title }}</span>
         <br />
         {{ post.node.date }}
         <br />
@@ -15,18 +23,6 @@
       </g-link>
     </div>
     <hr />
-    <div class="latest-tweet">
-      <Timeline
-        :id="'penguingeek'"
-        :sourceType="'profile'"
-        :options="{
-          tweetLimit: '1',
-          linkColor: '#336699',
-          showReplies: 'true',
-          ariaPolite: 'polite'
-        }"
-      />
-    </div>
   </Layout>
 </template>
 
@@ -38,6 +34,8 @@ query Posts {
         title
         date(format: "D MMMM YYYY")
         excerpt
+        content
+        cover
         path
       }
     }
@@ -51,6 +49,7 @@ import { Pager } from "gridsome";
 export default {
   metaInfo() {
     return {
+      title: "Welcome",
       meta: [
         { name: "author", content: "Adam Romig" },
         { name: "description", content: "Personal Site & Blog for Adam Romig" },
@@ -92,14 +91,11 @@ export default {
 </script>
 
 <style lang="scss">
-.latest-post,
-.latest-tweet {
-  width: 80%;
-  margin: 0 auto;
-}
-
 .latest-post {
   & a {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
     padding: 15px;
     border: 0.5px dotted #fff;
     text-decoration: none;
@@ -112,21 +108,16 @@ export default {
   }
 }
 
-.post-title {
-  font-size: 1.2rem;
-  font-weight: 400;
+.latest-post-cover {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 540px;
+  max-height: 330px;
+  border: 1px solid #444;
 }
 
-hr {
-  border: 0;
-  display: block;
-  text-align: center;
-  &::before {
-    content: "• • •";
-    display: inline-block;
-    color: #444;
-    font-size: 2rem;
-    font-weight: 300;
-  }
+.latest-post-title {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 </style>
