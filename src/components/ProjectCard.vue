@@ -1,0 +1,63 @@
+<template>
+  <div class="project-card">
+    <g-image class="project-cover" :src="project.cover" />
+    <div class="project-description">
+      <h3>
+        <g-link :to="project.path">{{ project.title }}</g-link>
+        <br />
+        <small>{{ project.excerpt.split("|")[0] }}</small>
+      </h3>
+      <p>{{ project.excerpt.split("|")[1] }}</p>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    project: { type: Object }
+  },
+  name: "ProjectCard"
+};
+</script>
+
+<style lang="scss">
+.project-card {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 0.5px solid #444;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  & p {
+    font-size: 1rem;
+  }
+}
+
+.project-cover {
+  object-fit: cover;
+  object-position: 50% 0;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.project-description {
+  padding: 0 15px;
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    flex-direction: column;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .project-cover {
+    object-fit: cover;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+    border: none;
+  }
+}
+</style>

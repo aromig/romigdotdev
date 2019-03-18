@@ -23,18 +23,32 @@
       </g-link>
     </div>
     <hr />
+    <div
+      v-for="project in $static.projects.edges"
+      :key="project.node.id"
+      class="latest-post"
+    >
+      <h2>Latest Project</h2>
+      <g-link :to="project.node.path">
+        <g-image class="latest-post-cover" :src="project.node.cover" />
+        <span class="latest-post-title">{{ project.node.title }}</span>
+        <br />
+        <small>{{ project.node.date + ' - ' + project.node.excerpt.split("|")[0] }}</small>
+      </h3>
+      <p>{{ project.node.excerpt.split("|")[1] }}</p>
+      </g-link>
+    </div>
   </Layout>
 </template>
 
 <page-query>
 query Posts {
-  posts: allPost (sortBy: "date", perPage: 1) {
+  posts: allPost (sortBy: "date", order: DESC, perPage: 1) {
     edges {
       node {
         title
         date(format: "D MMMM YYYY")
         excerpt
-        content
         cover
         path
       }
@@ -42,6 +56,23 @@ query Posts {
   }
 }
 </page-query>
+
+<static-query>
+query Projects {
+  projects: allProject (sortBy: "date", order: DESC, perPage: 1) {
+    edges {
+      node {
+        id
+        title
+        date(format: "MMMM YYYY")
+        excerpt
+        cover
+        path
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 import { Pager } from "gridsome";
@@ -119,5 +150,11 @@ export default {
 .latest-post-title {
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .latest-post-cover {
+    width: 100%;
+  }
 }
 </style>
