@@ -95,7 +95,7 @@ export default {
           name: "twitter:image",
           content: `${
             process.env.GRIDSOME_BASE_URLBaseUrl
-          }/assets/images/romig_dev_cover.png`
+          }/assets/images/project/romig_dev_cover.png`
         },
         { name: "twitter:creator", content: "@penguingeek" },
         // open-graph
