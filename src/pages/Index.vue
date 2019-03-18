@@ -93,24 +93,18 @@ export default {
         { name: "twitter:site", content: "@penguingeek" },
         {
           name: "twitter:image",
-          content: `${
-            process.env.GRIDSOME_BASE_URLBaseUrl
-          }/assets/images/project/romig_dev_cover.png`
+          content: "https://romig.dev/assets/images/project/romig_dev_cover.png"
         },
         { name: "twitter:creator", content: "@penguingeek" },
         // open-graph
         { property: "og:updated_time", content: "" },
         {
           property: "og:image",
-          content: `${
-            process.env.GRIDSOME_BASE_URL
-          }/assets/images/romig_dev_cover.png`
+          content: "https://romig.dev/assets/images/romig_dev_cover.png"
         },
         {
           property: "og:image:secure_url",
-          content: `${
-            process.env.GRIDSOME_BASE_URL
-          }/assets/images/romig_dev_cover.png`
+          content: "https://romig.dev/assets/images/romig_dev_cover.png"
         }
       ]
     };
