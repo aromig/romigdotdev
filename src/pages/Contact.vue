@@ -123,8 +123,15 @@ button {
   font-weight: 300;
 }
 
+input {
+  border: 2px solid rgb(238, 238, 238);
+  text-indent: 5px;
+}
+
 textarea {
   height: 150px;
+  border: 2px solid rgb(238, 238, 238);
+  padding: 5px;
 }
 
 .sender-info > div {
