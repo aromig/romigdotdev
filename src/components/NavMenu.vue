@@ -10,7 +10,7 @@
         <li><g-link class="nav__link" to="/">Home</g-link></li>
         <li><g-link class="nav__link" to="/blog">Blog</g-link></li>
         <li><g-link class="nav__link" to="/resume">Resume</g-link></li>
-        <li><g-link class="nav__link" to="/portfolio">Portfolio</g-link></li>
+        <li><g-link class="nav__link" to="/projects">Projects</g-link></li>
         <li><g-link class="nav__link" to="/about">About</g-link></li>
       </ul>
     </div>

@@ -2,7 +2,7 @@
   <div class="layout">
     <header class="header">
       <div class="site-logo">
-        <FA-Icon :icon="['fas', 'terminal']" class="fa-sm"></FA-Icon>&nbsp;
+        <g-image src="/assets/images/logo-icon.png" />
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </div>
       <NavMenu />
@@ -89,7 +89,11 @@ body {
 }
 
 .site-logo {
+  margin-left: 7px;
   font-size: 1.5rem;
+  & img {
+    height: 24px;
+  }
   & a {
     text-decoration: none;
     color: #444;
@@ -122,6 +126,19 @@ h6 {
   font-family: Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: 300;
+}
+
+hr {
+  border: 0;
+  display: block;
+  text-align: center;
+  &::before {
+    content: "• • • •";
+    display: inline-block;
+    color: #444;
+    font-size: 1rem;
+    font-weight: 300;
+  }
 }
 
 a {
