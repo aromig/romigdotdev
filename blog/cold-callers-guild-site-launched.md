@@ -2,6 +2,7 @@
 title: "Cold Callers Guild site launched"
 excerpt: "A much needed overhaul of a fan site was a fun excercise in planning, database architecture, API research, and user experience."
 date: "2015-06-29T17:44:01-04:00"
+cover: "/assets/images/blog/ccg_launched.png"
 ---
 
 ![Cold Callers Guild - Front Page](/assets/images/blog/ccg_launched.png)

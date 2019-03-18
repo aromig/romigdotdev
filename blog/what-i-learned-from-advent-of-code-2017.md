@@ -2,9 +2,10 @@
 title: "What I learned from Advent of Code 2017"
 excerpt: "Joining in a month-long coding challenge grew me as a programmer and gave me more renewed passion for my craft."
 date: "2018-01-19T17:01:25-05:00"
+cover: "/assets/images/blog/adventofcode2017.jpg"
 ---
 
-![Advent of Code 2017 finished!](/assets/images/blog/adventofcode2017.jpeg)
+![Advent of Code 2017 finished!](/assets/images/blog/adventofcode2017.jpg)
 
 Last month I participated in [Advent of Code](http://adventofcode.com/) for the first time. For those who aren’t familiar, Advent of Code is a series of 25 daily programming challenges beginning on December 1st. I was introduced to it by a member of the [Dayton Web Developers](https://www.meetup.com/dayton-web-developers/) group in early November. Being mostly self-taught and since coding is a tertiary duty in my job, I decided that I could use the extra practice with somewhat real problems to solve. Plus this would expand my [GitHub profile](http://github.com/aromig/) quite a bit for future employers to look at.
 

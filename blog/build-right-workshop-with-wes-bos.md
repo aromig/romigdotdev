@@ -2,6 +2,7 @@
 title: Build Right Workshop with Wes Bos
 excerpt: "After attending another Build Right workshop, I learned more about JavaScript/ES6 including Promises, Async + Await, Modules, and Service Workers"
 date: "2018-06-11T13:26:21-04:00"
+cover: "/assets/images/blog/br_wesbos_cover.jpg"
 ---
 
 I had been waiting patiently for a few months to find out who would be the speaker for the next [Build Right](https://buildright.io/) [Makers Series](https://buildright.io/maker-series/) workshop and I finally heard the news at a recent [Dayton Web Developers](https://www.meetup.com/dayton-web-developers/) meetup that it would be [Wes Bos](https://wesbos.com). Wes is a full-stack developer from Hamilton, Canada, who creates very easy-to-understand web development tutorial videos such as [JavaScript30](https://javascript30.com), [CSSGrid](https://cssgrid.io/), and [ES6 for Everyone](https://es6.io/).

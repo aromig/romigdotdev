@@ -2,6 +2,7 @@
 title: "Learning New Tricks: Riding Mower Edition"
 excerpt: "After searching for a cheap riding mower, we found a bargain: Free. Of course that brings with it its own adventure. Time to add another trade to my belt of things I needed to know."
 date: "2018-07-29T19:57:28-04:00"
+cover: "/assets/images/blog/generic_tools_cover.jpg"
 ---
 
 A couple of months ago we had been looking for deals on used riding mowers as our yard can be annoying at best to mow. It's not huge but since our push mower is an electric (with a cord, not even on a battery) with a small deck, doing this job can take a while. We didn't have much luck securing a mower that was affordable to us and in enough time before someone else would snatch it up before we could be able to pick it up.

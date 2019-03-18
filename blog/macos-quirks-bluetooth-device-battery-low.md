@@ -2,6 +2,7 @@
 title: "macOS Quirks: Bluetooth Device Battery Low"
 excerpt: "For some reason, macOS has a very low threshold set for bluetooth batteries. After looking for a setting to change this, I coded up a workaround instead."
 date: "2018-10-03T13:51:55-04:00"
+cover: "/assets/images/blog/generic_code_cover.jpg"
 ---
 
 For some reason, macOS has a _very_ low threshold set for bluetooth batteries (such as the Magic Mouse & Keyboard). Believe it or not, it's set to 2%. To me, that's a bit too close to death to let me know its battery is getting low and I needed more warning than that - especially given that the Apple Magic Mouse 2's Lightning port is on the bottom of the mouse. Charging it is not something I can do while I'm trying to work.
