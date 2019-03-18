@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <g-image class="post-cover" :src="$page.post.cover" />
     <h2 class="post-title">{{ $page.post.title }}</h2>
     <p class="post-excerpt">{{ $page.post.excerpt }}</p>
     <p class="post-date">{{ $page.post.date }}</p>
@@ -62,10 +63,12 @@ export default {
 </script>
 
 <style lang="scss">
-.post-content p,
-.post-content li {
-  // font-size: 1.2rem;
-  // font-family: "Segoe UI";
+.post-cover {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  max-height: 330px;
+  border: 1px solid #444;
 }
 
 .post-title {
@@ -84,19 +87,6 @@ export default {
 
 .post-content a {
   color: #369;
-}
-
-.post-content hr {
-  border: 0;
-  display: block;
-  text-align: center;
-  &::before {
-    content: "• • •";
-    display: inline-block;
-    color: #444;
-    font-size: 2rem;
-    font-weight: 300;
-  }
 }
 
 .post-content pre {
@@ -118,6 +108,16 @@ export default {
 .post-content img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 85%;
+}
+
+@media (max-width: 700px) {
+  .post-title {
+    font-size: 1.35rem;
+    font-weight: 400;
+  }
+  .post-content img {
+    max-width: 95%;
+  }
 }
 </style>

@@ -5,6 +5,7 @@
       I like to write about things that I am currently learning or have been
       working on. If posts seem few and far between - I'll work on that, too.
     </p>
+    <hr />
     <div class="post-list">
       <div
         v-for="post in $page.posts.edges"
@@ -13,10 +14,19 @@
       >
         <g-link
           :to="post.node.path"
+          class="post-cover-link"
+          :aria-label="`Read more about ${post.node.title}`"
+          :title="`Read more about ${post.node.title}`"
+          ><g-image class="post-cover" :src="post.node.cover" />
+        </g-link>
+        <g-link
+          :to="post.node.path"
           class="post-title"
           :aria-label="`Read more about ${post.node.title}`"
-          >{{ post.node.title }}</g-link
         >
+          <span>{{ post.node.title }}</span>
+        </g-link>
+
         <div class="post-date">{{ post.node.date }}</div>
         <p class="post-excerpt">{{ post.node.excerpt }}</p>
       </div>
@@ -27,7 +37,7 @@
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (perPage: 4, page: $page) @paginate {
+  posts: allPost (perPage: 3, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -42,6 +52,7 @@ query Posts ($page: Int) {
         excerpt
         date (format: "D MMMM YYYY")
         path
+        cover
       }
     }
   }
@@ -66,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 .post-list {
   list-style-type: none;
-  & a {
+  & a:not(.post-cover-link) {
     text-decoration: none;
     color: #369;
     border-bottom: 1px solid transparent;
@@ -78,21 +89,18 @@ export default {
   }
 }
 
-.post-item {
-  // border-left: 1px solid #ccc;
-  // padding-left: 15px;
-  // &:hover {
-  //   border-left: 1px solid #369;
-  // }
-  // &:hover a {
-  //   color: #369;
-  // }
-}
-
 .post-title {
   font-family: Roboto;
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+.post-cover {
+  object-fit: cover;
+  object-position: 0 0;
+  width: 100%;
+  max-height: 200px;
+  border: 1px solid #444;
 }
 
 .pager {

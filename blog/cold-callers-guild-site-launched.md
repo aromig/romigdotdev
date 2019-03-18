@@ -5,8 +5,6 @@ date: "2015-06-29T17:44:01-04:00"
 cover: "/assets/images/blog/ccg_launched.png"
 ---
 
-![Cold Callers Guild - Front Page](/assets/images/blog/ccg_launched.png)
-
 This past weekend I launched the new official web site for the Cold Callers Guild, a gaming group hosted by MMOCentralForums that plays the online game “ToonTown Rewritten.” The admin staff asked me to develop this new site as the old one was very outdated and prone to malicious users entering false and/or obscene data into their reports and user information. The new site is a total overhaul of the design, database structure, and server-side code as well as being integrated with their forum’s vBulletin software in regards to user identity.
 
 ---
