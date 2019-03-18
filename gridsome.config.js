@@ -8,7 +8,6 @@ module.exports = {
   siteName: "Adam Romig",
   siteUrl: "https://romig.dev",
   siteDescription: "Personal Site & Blog for Adam Romig",
-  icon: "src/favicon.png",
   transformers: {
     remark: {}
   },

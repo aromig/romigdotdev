@@ -19,7 +19,8 @@
     "gridsome-plugin-remark-shiki": "^0.2.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "typeface-roboto": "0.0.54"
+    "typeface-roboto": "0.0.54",
+    "vue-tweet-embed": "^2.2.1"
   },
   "devDependencies": {}
 }

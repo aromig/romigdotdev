@@ -55,6 +55,12 @@
         well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com">Vue Mastery</a> and developing this very site has given me a lot of practice in working with Vue and component-based structure.
       </p>
     </div>
+    <div class="this_site">
+      <h2>This Site</h2>
+      <p>
+        This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify">Netlify</a>. Building this site has reinforced a lot of what I had recently learned about Vue. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
+      </p>
+    </div>
     <div class="contact">
       <h2>Contacting me</h2>
       <p>Feel free to follow me at the social sites below or <g-link to="/contact">send me an email</g-link>.</p>

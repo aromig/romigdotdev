@@ -16,6 +16,7 @@ import {
   faTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { Tweet, Moment, Timeline } from "vue-tweet-embed";
 
 library.add(
   faTerminal,
@@ -31,4 +32,5 @@ export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.component("FA-Icon", FontAwesomeIcon);
+  Vue.component("Timeline", Timeline);
 }

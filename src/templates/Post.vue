@@ -15,6 +15,7 @@ query Post ($path: String!) {
     excerpt
     date (format:"D MMMM YYYY")
     content
+    cover
   }
 }
 </page-query>
@@ -28,8 +29,34 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
+      meta: [
+        { name: "author", content: "Adam Romig" },
+        // Twitter card
+        { name: "description", content: this.$page.post.excerpt },
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:description", content: this.$page.post.excerpt },
+        { name: "twitter:title", content: this.$page.post.title },
+        { name: "twitter:site", content: "@penguingeek" },
+        { name: "twitter:image", content: this.getCoverImage },
+        { name: "twitter:creator", content: "@penguingeek" },
+        // open-graph
+        { property: "og:updated_time", content: this.$page.post.date },
+        { property: "og:image", content: this.getCoverImage },
+        { property: "og:image:secure_url", content: this.getCoverImage }
+      ],
+      script: [{ src: "https://platform.twitter.com/widgets.js", async: true }]
     };
+  },
+  computed: {
+    getCoverImage() {
+      let coverImage = "";
+      const cover = this.$page.post.cover;
+      if (cover !== null) {
+        coverImage = `${process.env.GRIDSOME_BASE_URL}${this.$page.post.cover}`;
+      }
+      return coverImage;
+    }
   }
 };
 </script>

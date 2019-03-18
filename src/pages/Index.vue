@@ -5,7 +5,7 @@
       :key="post.node.id"
       class="latest-post"
     >
-      <h2>Latest Post <FA-Icon :icon="['fas', 'pen-fancy']"></FA-Icon></h2>
+      <h2>Latest Post</h2>
       <g-link :to="post.node.path">
         <span class="post-title">{{ post.node.title }}</span>
         <br />
@@ -16,7 +16,16 @@
     </div>
     <hr />
     <div class="latest-tweet">
-      Tweeeet
+      <Timeline
+        :id="'penguingeek'"
+        :sourceType="'profile'"
+        :options="{
+          tweetLimit: '1',
+          linkColor: '#336699',
+          showReplies: 'true',
+          ariaPolite: 'polite'
+        }"
+      />
     </div>
   </Layout>
 </template>
@@ -40,6 +49,42 @@ query Posts {
 import { Pager } from "gridsome";
 
 export default {
+  metaInfo() {
+    return {
+      meta: [
+        { name: "author", content: "Adam Romig" },
+        { name: "description", content: "Personal Site & Blog for Adam Romig" },
+        { name: "twitter:card", content: "summary_large_image" },
+        {
+          name: "twitter:description",
+          content: "Personal Site & Blog for Adam Romig"
+        },
+        { name: "twitter:title", content: "Adam Romig" },
+        { name: "twitter:site", content: "@penguingeek" },
+        {
+          name: "twitter:image",
+          content: `${
+            process.env.GRIDSOME_BASE_URLBaseUrl
+          }/assets/images/romig_dev_cover.png`
+        },
+        { name: "twitter:creator", content: "@penguingeek" },
+        // open-graph
+        { property: "og:updated_time", content: "" },
+        {
+          property: "og:image",
+          content: `${
+            process.env.GRIDSOME_BASE_URL
+          }/assets/images/romig_dev_cover.png`
+        },
+        {
+          property: "og:image:secure_url",
+          content: `${
+            process.env.GRIDSOME_BASE_URL
+          }/assets/images/romig_dev_cover.png`
+        }
+      ]
+    };
+  },
   components: {
     Pager
   }
