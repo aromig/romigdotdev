@@ -54,7 +54,7 @@ export default {
       let coverImage = "";
       const cover = this.$page.post.cover;
       if (cover !== null) {
-        coverImage = `${process.env.GRIDSOME_BASE_URL}${this.$page.post.cover}`;
+        coverImage = `https://romig.dev/${this.$page.post.cover}`;
       }
       return coverImage;
     }
