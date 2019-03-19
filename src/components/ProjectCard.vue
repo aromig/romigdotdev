@@ -34,11 +34,11 @@ export default {
 }
 
 .project-cover {
-  object-fit: cover;
+  object-fit: contain;
   object-position: 50% 0;
   width: 200px;
   height: 200px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  // border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .project-description {
@@ -53,9 +53,9 @@ export default {
     margin-bottom: 25px;
   }
   .project-cover {
-    object-fit: cover;
+    object-fit: contain;
     width: 80%;
-    height: 250px;
+    max-height: 250px;
     margin: 0 auto;
     border: none;
   }

@@ -12,3 +12,9 @@ Assisted with customizing and styling the RETS Service Desk ChatBot.
 - Provided styling changes in Sass/SCSS format to reflect branding and the best user experience.
 
 - Worked within Azure App Services in order to test changes on development site.
+
+---
+
+<center>ChatBot</center>
+
+![ChatBot](/assets/images/project/rets_chatbot_cover.png)

@@ -26,9 +26,20 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "projects/**/*.md",
+        path: "projects-web/**/*.md",
         typeName: "Project",
         route: "/projects/:slug",
+        remark: {
+          plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
+        }
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "projects-graphics/**/*.md",
+        typeName: "GraphicProject",
+        route: "/projects/g/:slug",
         remark: {
           plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
         }

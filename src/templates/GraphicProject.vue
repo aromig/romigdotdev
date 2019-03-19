@@ -10,13 +10,13 @@
 </template>
 
 <page-query>
-query Project ($path: String!) {
-  project: project (path: $path) {
+query GraphicProject ($path: String!) {
+  project: graphicProject (path: $path) {
     title
     date(format: "MMMM YYYY")
     content
-    excerpt
     cover
+    excerpt
   }
 }
 </page-query>
@@ -35,7 +35,7 @@ export default {
 .project-item-cover {
   object-fit: cover;
   object-position: 0 0;
-  max-height: 300px;
+  max-height: 400px;
   width: 100%;
 }
 

@@ -16,3 +16,9 @@ This included:
 - Building an HTML mock-up to present to team for consideration & chosen for the general design.
 - Building the templates using HTML, CSS, JavaScript, and integrating with UserVoice's template variables/conditionals via their implementation of the Liquid engine.
 - Working in Photoshop to prepare branding and stock images.
+
+---
+
+<center>iSpark Front Page</center>
+
+![iSpark Front Page](/assets/images/project/ispark_cover.jpg)

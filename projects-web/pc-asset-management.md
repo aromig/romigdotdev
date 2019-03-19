@@ -10,3 +10,5 @@ I designed & coded LN Dayton Desktop Support's asset management software to repl
 This application was originally coded in classic ASP & VB Script; however, it was rewritten in C# within the .Net framework allowing for greater scalability, access control, and support for frequent enhancements & maintenance. Later I redesigned the layout for responsiveness and better mobile support.
 
 In 2015, a "Global PC Request" form was introduced by the Service-Now team to facilitate equipment requests. In order to keep using our process, I wrote a RESTful C# web service to accept request records from Service-Now in json format to insert into our database. Additional functions query database to gather additional information not provided by originating form as well as sending an email notification after insertion.
+
+---
