@@ -5,9 +5,9 @@
       <h3>
         <g-link :to="project.path">{{ project.title }}</g-link>
         <br />
-        <small>{{ project.excerpt.split("|")[0] }}</small>
+        <small>{{ project.stack }}</small>
       </h3>
-      <p>{{ project.excerpt.split("|")[1] }}</p>
+      <p>{{ project.excerpt }}</p>
     </div>
   </div>
 </template>

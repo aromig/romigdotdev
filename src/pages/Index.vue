@@ -15,10 +15,8 @@
       <h2>Latest Writing</h2>
       <g-link :to="post.node.path">
         <g-image class="latest-post-cover" :src="post.node.cover" />
-        <span class="latest-post-title">{{ post.node.title }}</span>
-        <br />
-        {{ post.node.date }}
-        <br />
+        <h3 class="latest-post-title">{{ post.node.title }}</h3>
+        <small>{{ post.node.date }}</small>
         <p>{{ post.node.excerpt }}</p>
       </g-link>
     </div>
@@ -31,11 +29,9 @@
       <h2>Latest Project</h2>
       <g-link :to="project.node.path">
         <g-image class="latest-post-cover" :src="project.node.cover" />
-        <span class="latest-post-title">{{ project.node.title }}</span>
-        <br />
-        <small>{{ project.node.date + ' - ' + project.node.excerpt.split("|")[0] }}</small>
-      </h3>
-      <p>{{ project.node.excerpt.split("|")[1] }}</p>
+        <h3 class="latest-post-title">{{ project.node.title }}</h3>
+        <small>{{ project.node.date + " • " + project.node.stack }}</small>
+        <p>{{ project.node.excerpt }}</p>
       </g-link>
     </div>
   </Layout>
@@ -65,6 +61,7 @@ query Projects {
         id
         title
         date(format: "MMMM YYYY")
+        stack
         excerpt
         cover
         path
@@ -136,7 +133,7 @@ export default {
 .latest-post-cover {
   object-fit: cover;
   object-position: 0 0;
-  width: 540px;
+  width: 640px;
   max-height: 330px;
   border: 1px solid #444;
 }
@@ -144,6 +141,7 @@ export default {
 .latest-post-title {
   font-size: 1.2rem;
   font-weight: 400;
+  margin: 0;
 }
 
 @media (max-width: 700px) {

@@ -26,6 +26,7 @@ query Projects {
         id
         title
         date(format: "MMMM YYYY")
+        stack
         excerpt
         cover
         path
@@ -42,6 +43,7 @@ query GraphicProjects {
         id
         title
         date(format: "MMMM YYYY")
+        stack
         excerpt
         cover
         path
