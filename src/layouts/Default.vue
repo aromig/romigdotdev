@@ -66,7 +66,7 @@ body {
 }
 
 .layout {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   min-height: 100%;
   display: flex;
@@ -81,11 +81,11 @@ body {
   position: fixed;
   top: 0;
   margin-bottom: 20px;
-  width: 660px;
+  width: 760px;
   height: 80px;
   padding: 0 20px;
   background-color: #fff;
-  border-bottom: 0.5px solid #444;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
 }
 
 .site-logo {
