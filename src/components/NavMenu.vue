@@ -47,8 +47,9 @@ export default {
   }
   #menuToggle input {
     display: block;
-    width: 40px;
-    height: 32px;
+    width: 32px;
+    height: 22px;
+    margin: 0;
     position: absolute;
 
     cursor: pointer;
@@ -74,6 +75,7 @@ export default {
   }
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
+    margin-bottom: 0;
   }
   #menuToggle input:checked ~ span {
     opacity: 1;
@@ -86,6 +88,7 @@ export default {
   #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
+
   #menu {
     position: absolute;
     z-index: -1;
