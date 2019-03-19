@@ -93,7 +93,7 @@ export default {
     position: absolute;
     z-index: -1;
     width: 200px;
-    margin: 27px 0 0 -185px;
+    margin: 29px 0 0 -185px;
     padding: 25px 25px;
     background: rgba(0, 0, 0, 0.9);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);

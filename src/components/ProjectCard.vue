@@ -22,12 +22,16 @@ export default {
 </script>
 
 <style lang="scss">
+h3 {
+  margin: 0.5rem 0;
+}
+
 .project-card {
   display: flex;
   flex-direction: row-reverse;
   border-bottom: 0.5px solid #444;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding: 12.5px 0;
+  margin: 12.5px 0;
   & p {
     font-size: 1rem;
   }
@@ -38,7 +42,6 @@ export default {
   object-position: 50% 0;
   width: 200px;
   height: 200px;
-  // border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .project-description {
