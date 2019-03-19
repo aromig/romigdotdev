@@ -1,6 +1,10 @@
 <template>
   <Layout>
-    <g-image class="project-item-cover" :src="$page.project.cover" />
+    <g-image
+      class="project-item-cover"
+      :src="$page.project.cover"
+      style="display: none"
+    />
     <h2 class="project-item-title">{{ $page.project.title }}</h2>
     <p class="project-item-stack">{{ $page.project.stack }}</p>
     <p class="project-item-date">{{ $page.project.date }}</p>
@@ -26,6 +30,11 @@ query GraphicProject ($path: String!) {
 import InfoCard from "~/components/InfoCard.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: `Project : ${this.$page.project.title}`
+    };
+  },
   components: {
     InfoCard
   }

@@ -57,6 +57,11 @@ query GraphicProjects {
 import ProjectCard from "~/components/ProjectCard.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: "Projects"
+    };
+  },
   components: {
     ProjectCard
   }

@@ -26,6 +26,11 @@ query Project ($path: String!) {
 import InfoCard from "~/components/InfoCard.vue";
 
 export default {
+  metaInfo() {
+    return {
+      title: `Project : ${this.$page.project.title}`
+    };
+  },
   components: {
     InfoCard
   }
