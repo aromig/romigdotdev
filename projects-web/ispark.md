@@ -2,7 +2,8 @@
 title: "iSpark"
 date: "2018-05-01T17:44:01-04:00"
 cover: "/assets/images/project/ispark_cover.jpg"
-excerpt: "CSS, Liquid Template Engine|Built upon the UserVoice SaaS platform, iSpark is a tool for internal employees to submit and vote on new ideas for potential adoption by the RELX Core Technology division."
+stack: "CSS, Liquid Template Engine"
+excerpt: "Built upon the UserVoice SaaS platform, iSpark is a tool for internal employees to submit and vote on new ideas for potential adoption by the RELX Core Technology division."
 ---
 
 Built upon the UserVoice SaaS platform, iSpark is a tool for internal employees to submit and vote on new ideas for potential adoption by the RELX Core Technology division.

@@ -2,7 +2,8 @@
 title: "Sinclair Mobile Site Mock-up"
 date: "2015-02-18T17:44:01-04:00"
 cover: "/assets/images/project/sinclair_cover.png"
-excerpt: "Photoshop|A demonstration of a potential redesign of Sinclair Community College's mobile site and Schedule Planner."
+stack: "Photoshop"
+excerpt: "A demonstration of a potential redesign of Sinclair Community College's mobile site and Schedule Planner."
 ---
 
 These mock-ups were made to demonstrate a potential redesign of Sinclair Community College's mobile site, a quick & accessible collection of useful links for students, along with a proposed restyling of the Schedule Planner. My presentation is available to view for detailed information on my approach.

@@ -2,7 +2,8 @@
 title: "PC Asset Management (PAM)"
 date: "2005-05-21T17:44:01-04:00"
 cover: "/assets/images/project/pam_cover.png"
-excerpt: "ASP.Net, C#, JavaScript, AJAX, T-SQL, SSIS|A CRM/ERP web app that streamlined RETS' hardware lifecycle, providing accurate tracking of equipment & requests, increasing customer satisfaction."
+stack: "ASP.Net, C#, JavaScript, AJAX, T-SQL, SSIS"
+excerpt: "A CRM/ERP web app that streamlined RETS' hardware lifecycle, providing accurate tracking of equipment & requests, increasing customer satisfaction."
 ---
 
 I designed & coded LN Dayton Desktop Support's asset management software to replace an outdated system. This web application has streamlined their processes and provides more accurate tracking of equipment within the environment. It also provides standard and custom reporting regarding deployed equipment, inventory, request information and asset accounting.
