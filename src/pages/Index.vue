@@ -133,7 +133,7 @@ export default {
 .latest-post-cover {
   object-fit: cover;
   object-position: 0 0;
-  width: 640px;
+  width: 100%;
   max-height: 330px;
   border: 1px solid #444;
 }

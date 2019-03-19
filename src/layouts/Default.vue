@@ -72,6 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  position: relative;
 }
 
 .header {
@@ -86,6 +87,7 @@ body {
   padding: 0 20px;
   background-color: #fff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  z-index: auto;
 }
 
 .site-logo {

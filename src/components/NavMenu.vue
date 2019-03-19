@@ -5,7 +5,6 @@
       <span></span>
       <span></span>
       <span></span>
-
       <ul id="menu">
         <li><g-link class="nav__link" to="/">Home</g-link></li>
         <li><g-link class="nav__link" to="/blog">Blog</g-link></li>
@@ -37,11 +36,11 @@ export default {
     transition: border-bottom 0.3s;
   }
 }
+
 @media (max-width: 700px) {
   #menuToggle {
     display: block;
     position: relative;
-    z-index: 1;
     user-select: none;
     top: 0;
     left: -50px;
@@ -79,8 +78,6 @@ export default {
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #efefef;
-    transition: background 0.5s east-out;
   }
   #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
@@ -91,16 +88,17 @@ export default {
   }
   #menu {
     position: absolute;
+    z-index: -1;
     width: 200px;
-    margin: -60px 0 0 -200px;
+    margin: 27px 0 0 -185px;
     padding: 25px 25px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
     transform-origin: 0% 0%;
-    transform: translate(0, -100%);
+    transform: translate(120%, 0%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   #menu li {
@@ -113,18 +111,22 @@ export default {
       }
     }
   }
-  #menuToggle input:checked ~ ul {
+  #menuToggle input:checked ~ #menu {
     transform: none;
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 701px) {
+  .nav {
+    flex: 1 1 auto;
+  }
   .nav input[type="checkbox"],
   .nav span {
     display: none;
   }
   .nav ul {
     display: flex;
+    justify-content: center;
     list-style: none;
   }
   .nav li {

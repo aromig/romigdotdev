@@ -44,6 +44,16 @@ export default {
 .project-description {
   padding: 0 15px;
   flex: 1;
+  & a {
+    text-decoration: none;
+    color: #369;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+    &:hover {
+      border-bottom: 1px solid #369;
+      transition: border-bottom 0.3s;
+    }
+  }
 }
 
 @media (max-width: 700px) {
