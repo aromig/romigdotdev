@@ -13,8 +13,15 @@
       class="latest-post"
     >
       <h2>Latest Writing</h2>
-      <g-link :to="post.node.path">
-        <g-image class="latest-post-cover" :src="post.node.cover" />
+      <g-link
+        :to="post.node.path"
+        :aria-label="`Read more about ${post.node.title}`"
+      >
+        <g-image
+          class="latest-post-cover"
+          :src="post.node.cover"
+          :title="`Read more about ${post.node.title}`"
+        />
         <h3 class="latest-post-title">{{ post.node.title }}</h3>
         <small>{{ post.node.date }}</small>
         <p>{{ post.node.excerpt }}</p>
@@ -27,8 +34,15 @@
       class="latest-post"
     >
       <h2>Latest Project</h2>
-      <g-link :to="project.node.path">
-        <g-image class="latest-post-cover" :src="project.node.cover" />
+      <g-link
+        :to="project.node.path"
+        :aria-label="`Read more about ${project.node.title}`"
+      >
+        <g-image
+          class="latest-post-cover"
+          :src="project.node.cover"
+          :title="`Read more about ${project.node.title}`"
+        />
         <h3 class="latest-post-title">{{ project.node.title }}</h3>
         <small>{{ project.node.date + " • " + project.node.stack }}</small>
         <p>{{ project.node.excerpt }}</p>

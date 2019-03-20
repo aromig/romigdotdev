@@ -55,7 +55,7 @@ export default {
 }
 
 body {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
   padding-left: env(safe-area-inset-left);
@@ -87,7 +87,7 @@ body {
   padding: 0 20px;
   background-color: #fff;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-  z-index: auto;
+  z-index: 5;
 }
 
 .site-logo {
@@ -116,7 +116,6 @@ li,
 form {
   font-size: 1.1rem;
   font-weight: 300;
-  // font-family: "Segoe UI";
 }
 
 h1,
@@ -125,9 +124,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 hr {

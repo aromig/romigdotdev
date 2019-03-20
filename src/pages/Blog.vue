@@ -90,7 +90,6 @@ export default {
 }
 
 .post-title {
-  font-family: Roboto;
   font-size: 1.2rem;
   font-weight: 400;
 }

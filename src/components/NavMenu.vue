@@ -28,7 +28,8 @@ export default {
   padding: 0;
   padding-bottom: 5px;
   font-size: 1rem;
-  font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s;
   &:hover {

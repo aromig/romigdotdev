@@ -55,7 +55,6 @@ export default {
 }
 
 .project-item-date {
-  font-family: Roboto, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
 }
 

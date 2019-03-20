@@ -118,7 +118,6 @@ textarea {
 input,
 textarea,
 button {
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
