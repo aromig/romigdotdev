@@ -1,0 +1,89 @@
+<template>
+  <div class="education-card">
+    <div class="education-heading">
+      <h4 class="education-title">
+        {{ educationItem.institution
+        }}<span class="education-area"
+          >, {{ educationItem.studyType + " in " + educationItem.area }}</span
+        >
+      </h4>
+      <span class="education-dates">
+        {{ dateMonthYear(educationItem.startDate) }} to
+        {{ dateMonthYear(educationItem.endDate) }}
+      </span>
+    </div>
+    <ul class="education-highlights">
+      <li v-for="highlight in educationItem.highlights">
+        {{ highlight }}
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    educationItem: { type: Object }
+  },
+  name: "EducationCard",
+  methods: {
+    dateMonthYear: date_string => {
+      const monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ];
+
+      const date = new Date(date_string);
+
+      if (date == "Invalid Date") return date_string;
+
+      const monthIndex = date.getMonth() + 1;
+      const year = date.getFullYear();
+
+      return monthNames[monthIndex] + " " + year;
+    }
+  }
+};
+</script>
+
+<style lang="scss">
+.education-card {
+  margin-bottom: 25px;
+}
+
+.education-heading {
+  display: flex;
+}
+
+.education-title {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.education-area {
+  font-weight: normal;
+}
+
+.education-highlights {
+  margin-left: -15px;
+  & > li {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .education-heading {
+    display: block;
+  }
+}
+</style>

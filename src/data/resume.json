@@ -1,0 +1,190 @@
+{
+  "resume": {
+    "summary": "I am looking to fill a full-time role as a developer be it on the web, apps, or scripting.",
+    "skills": [
+      {
+        "name": "Programming",
+        "list": [
+          { "skill": "HTML5", "level": "4" },
+          { "skill": "CSS3", "level": "4" },
+          { "skill": "Sass", "level": "2" },
+          { "skill": "JavaScript", "level": "3" },
+          { "skill": "PHP", "level": "3" },
+          { "skill": "C#", "level": "3" },
+          { "skill": "Bash", "level": "2" },
+          { "skill": "PowerShell", "level": 2 }
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "list": [
+          { "skill": "ASP.Net", "level": "3" },
+          { "skill": "WebAPI", "level": "2" },
+          { "skill": "Vue.js", "level": "2" }
+        ]
+      },
+      {
+        "name": "Databases & APIs",
+        "list": [
+          { "skill": "T-SQL", "level": "4" },
+          { "skill": "mySQL", "level": "3" },
+          { "skill": "GraphQL", "level": "1" },
+          { "skill": "SSIS", "level": "2" },
+          { "skill": "Entity", "level": "2" },
+          { "skill": "LINQ", "level": "2" }
+        ]
+      },
+      {
+        "name": "Tools",
+        "list": [
+          { "skill": "Visual Studio", "level": "3" },
+          { "skill": "VS Code", "level": "4" },
+          { "skill": "Git", "level": "3" },
+          { "skill": "Photoshop", "level": "4" }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Toledo",
+        "area": "Software Development",
+        "studyType": "AAB",
+        "startDate": "2007-09-01",
+        "endDate": "2009-05-01",
+        "gpa": "3.8",
+        "highlights": [
+          "Programming logic theory, networking technologies, and database management.",
+          "Principles of management & financial accounting",
+          "Business management & workplace diversity concepts."
+        ]
+      },
+      {
+        "institution": "University of Toledo",
+        "area": "Web Design",
+        "studyType": "Certificate",
+        "startDate": "2009-09-01",
+        "endDate": "2010-12-01",
+        "gpa": "",
+        "highlights": [
+          "Design principles & techniques as well as utilizing social media.",
+          "Photo retouching & image manipulation in Adobe Photoshop.",
+          "HTML, CSS, JavaScript and Flash."
+        ]
+      }
+    ],
+    "workExperience": [
+      {
+        "company": "RELX Group",
+        "position": "Tech Support Specialist II & Developer",
+        "website": "http://relx.com",
+        "startDate": "2006-02-06",
+        "endDate": "Present",
+        "summary": "",
+        "highlights": [
+          "Provide 2nd Level Support for customer PC & Mac desktops, laptops, and mobile devices.",
+          "Responsible for coordinating logistics of equipment deployment & inventory management for campus, remote offices, and home-based customers.",
+          "Created documentation for training team interns in standard processes.",
+          "Designed and maintain SQL databases for web apps, occasionally writing custom queries for management reports.",
+          "Utilized programming knowledge to drive process improvement through web applications & automation scripts."
+        ],
+        "projects": [
+          {
+            "name": "iSpark",
+            "stack": "CSS, Liquid Template Engine",
+            "stub": "/projects/i-spark"
+          },
+          {
+            "name": "RETS Virtual Agent ChatBot",
+            "stack": "Sass",
+            "stub": "/projects/rets-virtual-agent-chat-bot"
+          },
+          {
+            "name": "PAM REST Service",
+            "stack": "ASP.Net, WebAPI, C#",
+            "stub": "/projects/pam-rest-service"
+          },
+          {
+            "name": "RE Homepage Selector",
+            "stack": "JavaScript",
+            "stub": ""
+          },
+          {
+            "name": "PC Asset Management",
+            "stack": "ASP.Net, C#, T-SQL",
+            "stub": "/projects/pc-asset-management-pam"
+          },
+          {
+            "name": "Customer Survey Tool",
+            "stack": "ASP.Net, C#, T-SQL",
+            "stub": ""
+          },
+          {
+            "name": "Software Request Form",
+            "stack": "ASP.Net, C#, T-SQL",
+            "stub": ""
+          }
+        ]
+      },
+      {
+        "company": "LexisNexis",
+        "position": "Hardware Engineer",
+        "website": "http://lexisnexis.com",
+        "startDate": "2001-06-11",
+        "endDate": "2006-02-05",
+        "summary": "",
+        "highlights": [
+          "Provided second level support to internal employees in regards to computer hardware issues.",
+          "Managed network printer environment",
+          "Purchased printer supplies & reported total cost of ownership projections to management.",
+          "Purchased & managed inventory of computer equipment within the distribution center.",
+          "Developed a web application for streamlining PC acquisition and deployment."
+        ],
+        "projects": [
+          {
+            "name": "PC Asset Management",
+            "stack": "ASP, VBScript, T-SQL",
+            "stub": ""
+          }
+        ]
+      }
+    ],
+    "personalExperience": [
+      {
+        "projectName": "romig.dev",
+        "projectDate": "2019-03-20",
+        "stack": "PHP, mySQL, JavaScript, AJAX",
+        "stub": "/projects/romig-dev"
+      },
+      {
+        "projectName": "Cold Callers Guild",
+        "projectDate": "2015-06-29",
+        "stack": "PHP, mySQL, JavaScript, AJAX",
+        "stub": "/projects/cold-callers-guild"
+      },
+      {
+        "projectName": "Meep 2016",
+        "projectDate": "2014-07-24",
+        "stack": "PHP, mySQL, WordPress, Photoshop",
+        "stub": "/projects/meep-2016"
+      },
+      {
+        "projectName": "Wayne Music Club (Mock Up)",
+        "projectDate": "2014-08-29",
+        "stack": "HTML, CSS, Bootstrap",
+        "stub": ""
+      },
+      {
+        "projectName": "Huber Heights City Schools (Mock Up)",
+        "projectDate": "2014-09-29",
+        "stack": "PHP, mySQL, WordPress",
+        "stub": ""
+      },
+      {
+        "projectName": "News Barometer",
+        "projectDate": "2008-06-29",
+        "stack": "PHP, mySQL, WordPress",
+        "stub": ""
+      }
+    ]
+  }
+}

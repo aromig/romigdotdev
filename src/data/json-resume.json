@@ -1,0 +1,120 @@
+{
+  "basics": {
+    "name": "Adam Romig",
+    "label": "Developer",
+    "picture": "",
+    "email": "adam@romig.dev",
+    "phone": "",
+    "website": "https://adam.romig.dev",
+    "summary": "I am looking to fill a full-time role as a developer be it on the web, apps, or scripting.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Dayton",
+      "countyCode": "US",
+      "region": "Ohio"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "adamromig",
+        "url": "http://linkedin.com/in/adamromig"
+      },
+      {
+        "network": "Github",
+        "username": "aromig",
+        "url": "http://github.com/aromig"
+      },
+      {
+        "network": "CodePen",
+        "username": "penguingeek",
+        "url": "http://codepen.io/penguingeek"
+      },
+      {
+        "network": "Twitter",
+        "username": "penguingeek",
+        "url": "http://twitter.com/penguingeek"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "RELX Group",
+      "position": "Tech Support Specialist II & Developer",
+      "website": "http://relx.com",
+      "startDate": "2006-02-06",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Provide 2nd Level Support for customer PC & Mac desktops, laptops, and mobile devices.",
+        "Responsible for coordinating logistics of equipment deployment & inventory management for campus, remote offices, and home-based customers.",
+        "Created documentation for training team interns in standard processes.",
+        "Designed and maintain SQL databases for web apps, occasionally writing custom queries for management reports.",
+        "Utilized programming knowledge to drive process improvement through web applications & automation scripts."
+      ]
+    },
+    {
+      "company": "LexisNexis",
+      "position": "Hardware Engineer",
+      "website": "http://lexisnexis.com",
+      "startDate": "2001-06-11",
+      "endDate": "2006-02-05",
+      "summary": "",
+      "highlights": [
+        "Provided second level support to internal employees in regards to computer hardware issues.",
+        "Managed network printer environment",
+        "Purchased printer supplies & reported total cost of ownership projections to management.",
+        "Purchased & managed inventory of computer equipment within the distribution center.",
+        "Developed a web application for streamlining PC acquisition and deployment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Toledo",
+      "area": "Software Development",
+      "studyType": "Associate of Applied Business",
+      "startDate": "2007-09-01",
+      "endDate": "2009-05-01",
+      "gpa": "3.8",
+      "courses": []
+    },
+    {
+      "institution": "University of Toledo",
+      "area": "Web Design",
+      "studyType": "Certificate",
+      "startDate": "2009-09-01",
+      "endDate": "2010-12-01",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "LexisNexis Employee Spirit",
+      "position": "Developer",
+      "website": "",
+      "startDate": "2002-01-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Updates content on intranet site.",
+        "Supports modifications & bug fixes for site and C# event scheduling app.",
+        "Added search functionality to discounts page."
+      ]
+    },
+    {
+      "organization": "MMOCentralForums.com",
+      "position": "Developer, Graphic Artist, Forum Administrator",
+      "website": "http://mmocentralforums.com",
+      "startDate": "2009-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Assisted with administration & moderation of forums to keep content family-friendly.",
+        "Utilized technical skills to troubleshoot script errors and create themes & graphics such as banners, logos, and contest awards."
+      ]
+    }
+  ],
+  "skills": [{}]
+}
