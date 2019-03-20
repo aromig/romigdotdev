@@ -2,9 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from "~/layouts/Default.vue";
-require("typeface-roboto");
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faPenFancy, faAsterisk } from "@fortawesome/free-solid-svg-icons";
+import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithub,
@@ -13,7 +12,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faPenFancy, faAsterisk, faLinkedin, faGithub, faCodepen, faTwitter);
+// Fonts
+require("typeface-open-sans");
+require("typeface-open-sans-condensed");
+
+library.add(faAsterisk, faLinkedin, faGithub, faCodepen, faTwitter);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
