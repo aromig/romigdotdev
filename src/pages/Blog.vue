@@ -94,6 +94,10 @@ export default {
   font-weight: 400;
 }
 
+.post-date {
+  font-weight: 300;
+}
+
 .post-cover {
   object-fit: cover;
   object-position: 0 0;

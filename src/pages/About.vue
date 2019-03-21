@@ -10,10 +10,13 @@
           easier.
         </p>
         <p>
-          I began learning about programming from a young age, delicately typing BASIC and machine language code from <a href="https://archive.org/details/compute-magazine" aria-label="Compute! Magazine">Compute!</a> magazines into my dad's <a href="https://en.wikipedia.org/wiki/Commodore_128" aria-label="Commodore 128 computer">Commodore 128</a>. From there I was learning QBasic, Pascal, and C++ in my teen years. I started writing HTML in the late 90's and kept a broad interest in web development throughout my adult life.
+          I began learning about programming from a young age, delicately typing BASIC and machine language code from <a href="https://archive.org/details/compute-magazine" aria-label="Compute! Magazine" target="_blank" rel="nofollow">Compute!</a> magazines into my dad's <a href="https://en.wikipedia.org/wiki/Commodore_128" aria-label="Commodore 128 computer" target="_blank" rel="nofollow">Commodore 128</a>. From there I was learning QBasic, Pascal, and C++ in my teen years. I started writing HTML in the late 90's and kept a broad interest in web development throughout my adult life.
         </p>
         <p>
-          I have an Associate's Degree of Applied Business from the <a href="http://www.utoledo.edu/" aria-label="University of Toledo">University of Toledo</a>, majoring in Programming &amp; Software Development, but a good portion of my current web development knowledge is self-taught.
+          I have an Associate's Degree of Applied Business from the <a href="http://www.utoledo.edu/" aria-label="University of Toledo" target="_blank" rel="nofollow">University of Toledo</a>, majoring in Programming &amp; Software Development, but a good portion of my current web development knowledge is self-taught.
+        </p>
+        <p>
+          When I'm not coding, I am making other things. I <a href="https://github.com/aromig/recipes" rel="nofollow">enjoy cooking</a> and baking cakes for birthdays, special occasions or just for fun. At times I also find myself using hand &amp; power tools for on-the-job learning for home improvement projects or anything my wife can envision.
         </p>
       </div>
       <g-image
@@ -50,15 +53,15 @@
       </p>
       <p>
         I am currently learning about
-        <a href="https://vuejs.org" aria-label="Learn more about Vue JS">Vue.js</a> and I am
+        <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and I am
         finding that its implementation of a front-end framework meshes very
-        well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com">Vue Mastery</a> and developing this very site have given me a lot of practice in working with Vue and component-based structure.
+        well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com" target="_blank" rel="nofollow">Vue Mastery</a> and developing this very site have given me a lot of practice in working with Vue and component-based structure.
       </p>
     </div>
     <div class="this_site">
       <h2>This Site</h2>
       <p>
-        This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify">Netlify</a>. Building this site has reinforced a lot of what I had recently learned about Vue. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
+        This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome" target="_blank" rel="nofollow">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify" target="_blank" rel="nofollow">Netlify</a>. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
       </p>
     </div>
     <div class="contact">
@@ -81,26 +84,26 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
 
-.intro {
-  padding-right: 10px;
-}
+  .intro {
+    padding-right: 10px;
+  }
 
-img.profile-pic {
-  flex-shrink: 0;
-  box-shadow: 0 0 25px #ccc;
-  border-radius: 100%;
-  width: 200px;
-  height: 200px;
+  img.profile-pic {
+    flex-shrink: 0;
+    box-shadow: 0 0 25px #ccc;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 @media (max-width: 700px) {
   .about {
     flex-direction: column-reverse;
-  }
-  img.profile-pic {
-    margin: 0 auto;
+    img.profile-pic {
+      margin: 0 auto;
+    }
   }
 }
 </style>
