@@ -1,7 +1,7 @@
 ---
 title: "PC Asset Management (PAM)"
 date: "2009-05-21T17:44:01-04:00"
-cover: "/assets/images/project/pam_cover.png"
+cover: "/assets/images/project/pam/pam_cover.png"
 stack: "ASP.Net, C#, JavaScript, AJAX, T-SQL, SSIS"
 excerpt: "A CRM/ERP web app that streamlined RETS' hardware lifecycle, providing accurate tracking of equipment & requests, increasing customer satisfaction."
 ---
@@ -10,6 +10,38 @@ I designed & coded LN Dayton Desktop Support's asset management software to repl
 
 This application was originally coded in classic ASP & VB Script; however, it was rewritten in C# within the .Net framework allowing for greater scalability, access control, and support for frequent enhancements & maintenance. Later I redesigned the layout for responsiveness and better mobile support.
 
-In 2015, a "Global PC Request" form was introduced by the Service-Now team to facilitate equipment requests. In order to keep using our process, I wrote a RESTful C# web service to accept request records from Service-Now in json format to insert into our database. Additional functions query database to gather additional information not provided by originating form as well as sending an email notification after insertion.
+In 2015, a "Global PC Request" form was introduced by the Service-Now team to facilitate equipment requests. In order to keep using our process, I wrote a [RESTful C# web service](/projects/pam-rest-service) to accept request records from Service-Now in json format to insert into our database. Additional functions query database to gather additional information not provided by originating form as well as sending an email notification after insertion.
 
 ---
+
+<center>Front Page w/ Recent Release Notes</center>
+
+![Front Page w/ Recent Release Notes](/assets/images/project/pam/pam_cover.png)
+
+<center>Request Queue</center>
+
+![Request Queue](/assets/images/project/pam/pam_requestqueue.png)
+
+<center>Check Out</center>
+
+![Check Out](/assets/images/project/pam/pam_checkout.png)
+
+<center>PC Request Form</center>
+
+![PC Request Form](/assets/images/project/pam/pam_pcform.png)
+
+<center>Custom Report</center>
+
+![Custom Report](/assets/images/project/pam/pam_customreport.png)
+
+<center>Metrics Dashboard</center>
+
+![Metrics Dashboard](/assets/images/project/pam/pam_metrics.png)
+
+<center>Bulk Import from Excel Spreadsheet</center>
+
+![Bulk Import from Excel Spreadsheet](/assets/images/project/pam/pam_bulkinsert.png)
+
+<center>Site Options</center>
+
+![Site Options](/assets/images/project/pam/pam_siteoptions.png)
