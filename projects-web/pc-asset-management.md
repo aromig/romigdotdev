@@ -1,6 +1,6 @@
 ---
 title: "PC Asset Management (PAM)"
-date: "2005-05-21T17:44:01-04:00"
+date: "2009-05-21T17:44:01-04:00"
 cover: "/assets/images/project/pam_cover.png"
 stack: "ASP.Net, C#, JavaScript, AJAX, T-SQL, SSIS"
 excerpt: "A CRM/ERP web app that streamlined RETS' hardware lifecycle, providing accurate tracking of equipment & requests, increasing customer satisfaction."

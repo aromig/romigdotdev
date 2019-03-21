@@ -124,7 +124,7 @@
           {
             "name": "RE Homepage Selector",
             "stack": "JavaScript",
-            "stub": ""
+            "stub": "/projects/re-homepage-selector"
           },
           {
             "name": "PC Asset Management",
@@ -134,12 +134,12 @@
           {
             "name": "Customer Survey Tool",
             "stack": "ASP.Net, C#, T-SQL",
-            "stub": ""
+            "stub": "/projects/customer-survey-tool"
           },
           {
             "name": "Software Request Form",
             "stack": "ASP.Net, C#, T-SQL",
-            "stub": ""
+            "stub": "/projects/software-request-form"
           }
         ]
       },
@@ -189,19 +189,19 @@
         "name": "Wayne Music Club (Mock Up)",
         "date": "2014-08-29",
         "stack": "HTML, CSS, Bootstrap",
-        "stub": ""
+        "stub": "/projects/wayne-music-club-mock-up"
       },
       {
         "name": "Huber Heights City Schools (Mock Up)",
         "date": "2014-09-29",
         "stack": "HTML, CSS, Bootstrap",
-        "stub": ""
+        "stub": "/projects/huber-heights-city-schools-mock-up"
       },
       {
         "name": "News Barometer",
         "date": "2008-06-29",
         "stack": "PHP, mySQL, WordPress",
-        "stub": ""
+        "stub": "/projects/news-barometer"
       }
     ],
     "codeSamples": [
