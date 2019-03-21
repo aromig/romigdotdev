@@ -103,11 +103,6 @@ export default {
 </script>
 
 <style lang="scss">
-form {
-  // width: 75%;
-  // margin: 0 auto;
-}
-
 label,
 input,
 textarea {
