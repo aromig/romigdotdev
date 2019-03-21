@@ -10,22 +10,30 @@ These logos were made for a gaming forum to reflect the different games that are
 
 ---
 
-<center>Default</center>
-
 ![Default Skin Logo](/assets/images/project/mmocentral_logo.png)
 
-<center>Lord of the Rings Online</center>
+<center>Default</center>
+
+---
 
 ![Lord of the Rings Online Skin Logo](/assets/images/project/mmocentral_logo_lotro.png)
 
-<center>Star Wars</center>
+<center>Lord of the Rings Online</center>
+
+---
 
 ![Star Wars Skin Logo](/assets/images/project/mmocentral_logo_starwars.png)
 
-<center>Minecraft</center>
+<center>Star Wars</center>
+
+---
 
 ![Minecraft Skin Logo](/assets/images/project/mmocentral_logo_minecraft.png)
 
-<center>Wizards 101</center>
+<center>Minecraft</center>
+
+---
 
 ![Wizards 101 Skin Logo](/assets/images/project/mmocentral_logo_wizards101.png)
+
+<center>Wizards 101</center>

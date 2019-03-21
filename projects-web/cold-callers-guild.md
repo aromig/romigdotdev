@@ -16,26 +16,36 @@ Site: [mmocentralforums.com/ccg](http://mmocentralforums.com/ccg)
 
 ---
 
-<center>Home Page</center>
-
 ![Home Page](/assets/images/project/ccg_cover.png)
 
-<center>Member List</center>
+<center>Home Page</center>
+
+---
 
 ![Member List](/assets/images/project/ccg_ss2.png)
 
-<center>TTR Run Schedule</center>
+<center>Member List</center>
+
+---
 
 ![TTR Run Schedule](/assets/images/project/ccg_ss3.png)
 
-<center>Guild Guidelines</center>
+<center>TTR Run Schedule</center>
+
+---
 
 ![Guild Guidelines](/assets/images/project/ccg_ss4.png)
 
-<center>Report a Run Form</center>
+<center>Guild Guidelines</center>
+
+---
 
 ![Report a Run Form](/assets/images/project/ccg_ss5.png)
 
-<center>Victory Reports</center>
+<center>Report a Run Form</center>
+
+---
 
 ![Victory Reports](/assets/images/project/ccg_ss6.png)
+
+<center>Victory Reports</center>

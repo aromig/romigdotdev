@@ -20,6 +20,6 @@ This included:
 
 ---
 
-<center>iSpark Front Page</center>
-
 ![iSpark Front Page](/assets/images/project/ispark_cover.jpg)
+
+<center>iSpark Front Page</center>

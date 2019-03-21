@@ -10,14 +10,18 @@ I created a web application to replace an existing tool to track customer satisf
 
 ---
 
-<center>Survey Form</center>
-
 ![Customer Survey Form](/assets/images/project/survey_ss1.png)
 
-<center>Admin Panel</center>
+<center>Survey Form</center>
+
+---
 
 ![Customer Survey Admin Panel](/assets/images/project/survey_ss3.png)
 
-<center>My Results Page</center>
+<center>Admin Panel</center>
+
+---
 
 ![Customer Survey My Results](/assets/images/project/survey_ss3.png)
+
+<center>My Results Page</center>

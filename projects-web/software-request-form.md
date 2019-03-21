@@ -10,10 +10,12 @@ I implemented a small workflow application into LN Dayton Desktop Support's soft
 
 ---
 
-<center>Software Request Form</center>
-
 ![Software Request Form](/assets/images/project/swrf_ss1.png)
 
-<center>Approval Queue</center>
+<center>Software Request Form</center>
+
+---
 
 ![Approval Queue](/assets/images/project/swrf_ss2.png)
+
+<center>Approval Queue</center>

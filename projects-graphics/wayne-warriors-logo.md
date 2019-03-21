@@ -10,10 +10,12 @@ When building the [Wayne Music Club mock-up site](/projects/wayne-music-club-moc
 
 ---
 
-<center>Original</center>
-
 ![Original](/assets/images/project/wayne_warriors_logo_original.jpg)
 
-<center>Extracted</center>
+<center>Original</center>
+
+---
 
 ![Extracted](/assets/images/project/wayne_warriors_logo.png)
+
+<center>Extracted</center>
