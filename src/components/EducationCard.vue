@@ -1,11 +1,16 @@
 <template>
   <div class="education-card">
     <div class="education-heading">
-      <h4 class="education-title">
+      <h4 v-if="educationItem.institution" class="education-title">
         {{ educationItem.institution
         }}<span class="education-area"
           >, {{ educationItem.studyType + " in " + educationItem.area }}</span
         >
+      </h4>
+      <h4 v-else class="education-title">
+        <span class="education-area">{{
+          educationItem.studyType + " in " + educationItem.area
+        }}</span>
       </h4>
       <span class="education-dates">
         {{ dateMonthYear(educationItem.startDate) }} to
@@ -47,7 +52,7 @@ export default {
 
       if (date == "Invalid Date") return date_string;
 
-      const monthIndex = date.getMonth() + 1;
+      const monthIndex = date.getMonth();
       const year = date.getFullYear();
 
       return monthNames[monthIndex] + " " + year;
@@ -63,10 +68,10 @@ export default {
 
 .education-heading {
   display: flex;
+  justify-content: space-between;
 }
 
 .education-title {
-  flex-grow: 1;
   margin: 0;
 }
 

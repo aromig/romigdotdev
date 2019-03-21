@@ -40,7 +40,7 @@ export default {
   props: {
     experienceItem: { type: Object }
   },
-  name: "ExperienceCard",
+  name: "WorkExperienceCard",
   methods: {
     dateMonthYear: date_string => {
       const monthNames = [
@@ -62,7 +62,7 @@ export default {
 
       if (date == "Invalid Date") return date_string;
 
-      const monthIndex = date.getMonth() + 1;
+      const monthIndex = date.getMonth();
       const year = date.getFullYear();
 
       return monthNames[monthIndex] + " " + year;
@@ -80,12 +80,12 @@ a {
 }
 
 .experience-title {
-  flex-grow: 1;
   margin: 0;
 }
 
 .experience-heading {
   display: flex;
+  justify-content: space-between;
 }
 
 .experience-company {

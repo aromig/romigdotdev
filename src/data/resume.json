@@ -1,5 +1,11 @@
 {
   "resume": {
+    "name": "Adam Romig",
+    "label": "Developer",
+    "picture": "",
+    "email": "adam@romig.dev",
+    "phone": "",
+    "website": "https://romig.dev",
     "summary": "I am looking to fill a full-time role as a developer be it on the web, apps, or scripting.",
     "skills": [
       {
@@ -49,8 +55,8 @@
         "institution": "University of Toledo",
         "area": "Software Development",
         "studyType": "AAB",
-        "startDate": "2007-09-01",
-        "endDate": "2009-05-01",
+        "startDate": "2007-09-02",
+        "endDate": "2009-05-02",
         "gpa": "3.8",
         "highlights": [
           "Programming logic theory, networking technologies, and database management.",
@@ -62,13 +68,25 @@
         "institution": "University of Toledo",
         "area": "Web Design",
         "studyType": "Certificate",
-        "startDate": "2009-09-01",
-        "endDate": "2010-12-01",
+        "startDate": "2009-09-20",
+        "endDate": "2010-12-20",
         "gpa": "",
         "highlights": [
           "Design principles & techniques as well as utilizing social media.",
           "Photo retouching & image manipulation in Adobe Photoshop.",
           "HTML, CSS, JavaScript and Flash."
+        ]
+      },
+      {
+        "institution": "",
+        "area": "ITIL V3 Foundation",
+        "studyType": "Certification",
+        "startDate": "2009-01-20",
+        "endDate": "2009-01-20",
+        "gpa": "",
+        "highlights": [
+          "Understanding of the IT Service Management (ITSM) Lifecycle and its supporting processes, functions, principles & roles.",
+          "Learned how an ITSM framework can enhance the decision-making process & provide strategy & planning to the development of IT business services."
         ]
       }
     ],
@@ -148,42 +166,59 @@
         ]
       }
     ],
-    "personalExperience": [
+    "personalProjects": [
       {
-        "projectName": "romig.dev",
-        "projectDate": "2019-03-20",
+        "name": "romig.dev",
+        "date": "2019-03-20",
         "stack": "PHP, mySQL, JavaScript, AJAX",
         "stub": "/projects/romig-dev"
       },
       {
-        "projectName": "Cold Callers Guild",
-        "projectDate": "2015-06-29",
+        "name": "Cold Callers Guild",
+        "date": "2015-06-29",
         "stack": "PHP, mySQL, JavaScript, AJAX",
         "stub": "/projects/cold-callers-guild"
       },
       {
-        "projectName": "Meep 2016",
-        "projectDate": "2014-07-24",
+        "name": "Meep 2016",
+        "date": "2014-07-24",
         "stack": "PHP, mySQL, WordPress, Photoshop",
         "stub": "/projects/meep-2016"
       },
       {
-        "projectName": "Wayne Music Club (Mock Up)",
-        "projectDate": "2014-08-29",
+        "name": "Wayne Music Club (Mock Up)",
+        "date": "2014-08-29",
         "stack": "HTML, CSS, Bootstrap",
         "stub": ""
       },
       {
-        "projectName": "Huber Heights City Schools (Mock Up)",
-        "projectDate": "2014-09-29",
+        "name": "Huber Heights City Schools (Mock Up)",
+        "date": "2014-09-29",
         "stack": "PHP, mySQL, WordPress",
         "stub": ""
       },
       {
-        "projectName": "News Barometer",
-        "projectDate": "2008-06-29",
+        "name": "News Barometer",
+        "date": "2008-06-29",
         "stack": "PHP, mySQL, WordPress",
         "stub": ""
+      }
+    ],
+    "codeSamples": [
+      {
+        "network": "Github",
+        "username": "aromig",
+        "url": "http://github.com/aromig"
+      },
+      {
+        "network": "Github Gist",
+        "username": "aromig",
+        "url": "http://gist.github.com/aromig"
+      },
+      {
+        "network": "CodePen",
+        "username": "penguingeek",
+        "url": "http://codepen.io/penguingeek"
       }
     ]
   }

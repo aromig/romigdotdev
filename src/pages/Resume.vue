@@ -16,19 +16,34 @@
 
     <h3 class="resume-section">Work Experience</h3>
     <div v-for="experienceItem in $options.resume.workExperience">
-      <ExperienceCard :experienceItem="experienceItem" />
+      <WorkExperienceCard :experienceItem="experienceItem" />
     </div>
+
+    <h3 class="resume-section">Personal Projects</h3>
+    <div v-for="project in $options.resume.personalProjects">
+      <PersonalExperienceCard :project="project" />
+    </div>
+
+    <h3 class="resume-section">Code Samples</h3>
+    <ul class="code-samples">
+      <li v-for="site in $options.resume.codeSamples">
+        <a
+          :href="site.url"
+          :aria-label="`Go to my profile on ${site.network}`"
+          target="_blank"
+          >{{ site.network }}</a
+        >
+      </li>
+    </ul>
   </Layout>
 </template>
-
-<page-query>
-</page-query>
 
 <script>
 import resumeJSON from "~/data/resume.json";
 import SkillCard from "~/components/SkillCard.vue";
 import EducationCard from "~/components/EducationCard.vue";
-import ExperienceCard from "~/components/ExperienceCard.vue";
+import WorkExperienceCard from "~/components/WorkExperienceCard.vue";
+import PersonalExperienceCard from "~/components/PersonalExperienceCard.vue";
 
 export default {
   metaInfo() {
@@ -40,7 +55,8 @@ export default {
   components: {
     SkillCard,
     EducationCard,
-    ExperienceCard
+    WorkExperienceCard,
+    PersonalExperienceCard
   }
 };
 </script>
@@ -49,7 +65,15 @@ export default {
 p {
   font-size: 1rem;
 }
+
 .resume-section {
   border-bottom: 1px solid #369;
+}
+
+.code-samples {
+  margin-left: -15px;
+  & > li {
+    font-size: 1rem;
+  }
 }
 </style>
