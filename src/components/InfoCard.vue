@@ -57,5 +57,8 @@ figure {
   position: relative;
   top: -50px;
   display: block;
+  & p {
+    margin-top: 30px;
+  }
 }
 </style>
