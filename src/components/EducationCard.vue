@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .education-card {
   margin-bottom: 25px;
 }
