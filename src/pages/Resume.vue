@@ -62,7 +62,8 @@ export default {
 </script>
 
 <style lang="scss">
-p {
+p,
+li {
   font-size: 1rem;
 }
 

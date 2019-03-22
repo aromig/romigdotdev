@@ -71,7 +71,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 a {
   text-decoration: none;
 }
@@ -95,9 +95,6 @@ a {
 .experience-highlights,
 .experience-projects-list {
   margin-left: -15px;
-  & > li {
-    font-size: 1rem;
-  }
 }
 
 .experience-projects {

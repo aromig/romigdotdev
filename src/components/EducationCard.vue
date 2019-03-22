@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .education-card {
   margin-bottom: 25px;
 }
@@ -81,9 +81,6 @@ export default {
 
 .education-highlights {
   margin-left: -15px;
-  & > li {
-    font-size: 1rem;
-  }
 }
 
 @media (max-width: 700px) {
