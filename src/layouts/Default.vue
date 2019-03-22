@@ -63,6 +63,10 @@ body {
   line-height: 1.5;
   height: 100vh;
   background: linear-gradient(45deg, #111, #444) no-repeat fixed;
+  text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 .layout {
