@@ -1,5 +1,5 @@
 <template>
-  <div class="project-card">
+  <section class="project-card">
     <g-image class="project-cover" :src="project.cover" />
     <div class="project-description">
       <h3>
@@ -9,7 +9,7 @@
       </h3>
       <p>{{ project.excerpt }}</p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

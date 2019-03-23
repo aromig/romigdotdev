@@ -1,5 +1,5 @@
 <template>
-  <div class="experience-card">
+  <section class="experience-card">
     <div class="experience-heading">
       <h4 class="experience-title">
         {{ experienceItem.position }}<br /><span class="experience-company">{{
@@ -32,7 +32,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

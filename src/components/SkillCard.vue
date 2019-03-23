@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-card">
+  <section class="skill-card">
     <h4 class="skill-heading">{{ skillHeading.name }}</h4>
     <ul class="skill-list">
       <li v-for="skillItem in skillHeading.list">
@@ -7,7 +7,7 @@
         ><em>{{ skillItem.skill }}</em>
       </li>
     </ul>
-  </div>
+  </section>
 </template>
 
 <script>

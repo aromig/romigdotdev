@@ -1,10 +1,18 @@
 <template>
   <Layout>
-    <g-image class="post-cover" :src="$page.post.cover" />
-    <h2 class="post-title">{{ $page.post.title }}</h2>
-    <p class="post-excerpt">{{ $page.post.excerpt }}</p>
-    <p class="post-date">{{ $page.post.date }}</p>
-    <div class="post-content" v-html="$page.post.content" />
+    <section>
+      <header>
+        <g-image class="post-cover" :src="$page.post.cover" />
+        <h2 class="post-title">{{ $page.post.title }}</h2>
+      </header>
+      <summary>
+        <p class="post-excerpt">{{ $page.post.excerpt }}</p>
+      </summary>
+      <article>
+        <p class="post-date">{{ $page.post.date }}</p>
+        <div class="post-content" v-html="$page.post.content" />
+      </article>
+    </section>
     <InfoCard />
   </Layout>
 </template>

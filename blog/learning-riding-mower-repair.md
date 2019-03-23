@@ -1,5 +1,5 @@
 ---
-title: "Learning New Tricks: Riding Mower Edition"
+title: "Learning: Riding Mower Repair"
 excerpt: "After searching for a cheap riding mower, we found a bargain: Free. Of course that brings with it its own adventure. Time to add another trade to my belt of things I needed to know."
 date: "2018-07-29T19:57:28-04:00"
 cover: "/assets/images/blog/generic_tools_cover.jpg"

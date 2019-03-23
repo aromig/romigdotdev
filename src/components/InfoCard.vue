@@ -1,5 +1,5 @@
 <template>
-  <div class="info-card">
+  <section class="info-card">
     <figure>
       <a href="/about" aria-label="Learn more about me" title="About Me"></a>
     </figure>
@@ -12,7 +12,7 @@
         easier.
       </p>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

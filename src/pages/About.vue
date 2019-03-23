@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h2>About me</h2>
-    <div class="about">
+    <section class="about">
       <div class="intro">
         <p>
           Hello! I am a full-stack developer located in Dayton, Ohio, with years
@@ -23,8 +23,8 @@
         src="/assets/images/profile_pic_400x400.jpg"
         class="profile-pic"
       />
-    </div>
-    <div class="skills">
+    </section>
+    <section class="skills">
       <h2>What I know</h2>
       <p>
         I have a range of skills that I have learned over my career, both out
@@ -57,17 +57,17 @@
         finding that its implementation of a front-end framework meshes very
         well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com" target="_blank" rel="nofollow">Vue Mastery</a> and developing this very site have given me a lot of practice in working with Vue and component-based structure.
       </p>
-    </div>
-    <div class="this_site">
+    </section>
+    <section class="this_site">
       <h2>This Site</h2>
       <p>
         This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome" target="_blank" rel="nofollow">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify" target="_blank" rel="nofollow">Netlify</a>. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
       </p>
-    </div>
-    <div class="contact">
+    </section>
+    <section class="contact">
       <h2>Contacting me</h2>
       <p>Feel free to follow me at the social sites below or <g-link to="/contact">send me an email</g-link>.</p>
-    </div>
+    </section>
   </Layout>
 </template>
 

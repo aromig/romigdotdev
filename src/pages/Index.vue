@@ -91,7 +91,7 @@ import { Pager } from "gridsome";
 export default {
   metaInfo() {
     return {
-      title: "Welcome",
+      title: "Home",
       meta: [
         { name: "author", content: "Adam Romig" },
         { name: "description", content: "Personal Site & Blog for Adam Romig" },

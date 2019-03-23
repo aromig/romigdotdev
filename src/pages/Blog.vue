@@ -1,10 +1,12 @@
 <template>
   <Layout>
     <h2>Recent Articles</h2>
-    <p>
-      I like to write about things that I am currently learning or have been
-      working on. If posts seem few and far between - I'll work on that, too.
-    </p>
+    <summary>
+      <p>
+        I like to write about things that I am currently learning or have been
+        working on. If posts seem few and far between - I'll work on that, too.
+      </p>
+    </summary>
     <hr />
     <div class="post-list">
       <div

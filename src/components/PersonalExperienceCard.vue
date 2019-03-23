@@ -1,5 +1,5 @@
 <template>
-  <div class="personal-project-card">
+  <section class="personal-project-card">
     <div class="personal-project-heading">
       <div v-if="project.stub">
         <h4 class="personal-project-title">
@@ -18,7 +18,7 @@
         {{ dateMonthYear(project.date) }}
       </span>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

@@ -3,18 +3,18 @@
     <h2>Projects</h2>
     <h3>Web Development</h3>
 
-    <div class="project-list">
+    <section class="project-list">
       <div v-for="project in $page.projects.edges" :key="project.node.id">
         <ProjectCard :project="project.node"></ProjectCard>
       </div>
-    </div>
+    </section>
 
     <h3>Graphic Work</h3>
-    <div class="project-list">
+    <section class="project-list">
       <div v-for="project in $static.projects.edges" :key="project.node.id">
         <ProjectCard :project="project.node"></ProjectCard>
       </div>
-    </div>
+    </section>
   </Layout>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="education-card">
+  <section class="education-card">
     <div class="education-heading">
       <h4 v-if="educationItem.institution" class="education-title">
         {{ educationItem.institution
@@ -22,7 +22,7 @@
         {{ highlight }}
       </li>
     </ul>
-  </div>
+  </section>
 </template>
 
 <script>
