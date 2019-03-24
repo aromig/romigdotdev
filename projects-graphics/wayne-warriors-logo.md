@@ -11,11 +11,9 @@ When building the [Wayne Music Club mock-up site](/projects/wayne-music-club-moc
 ---
 
 ![Original](/assets/images/project/wayne_warriors_logo_original.jpg)
-
-<center>Original</center>
+_Original_
 
 ---
 
 ![Extracted](/assets/images/project/wayne_warriors_logo.png)
-
-<center>Extracted</center>
+_Extracted_

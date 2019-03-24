@@ -11,23 +11,19 @@ A mock up redesign of the Huber Heights City Schools web site. The layout and na
 ---
 
 ![Home Page](/assets/images/project/hhcs_ss1.png)
-
-<center>Home Page</center>
+_Home Page_
 
 ---
 
 ![Old vs Proposed](/assets/images/project/hhcs_ss2.png)
-
-<center>Old vs Proposed</center>
+_Old vs Proposed_
 
 ---
 
 ![Mobile Layout](/assets/images/project/hhcs_ss3.png)
-
-<center>Mobile Layout</center>
+_Mobile Layout_
 
 ---
 
 ![Menu Extended](/assets/images/project/hhcs_ss4.png)
-
-<center>Menu Extended</center>
+_Menu Extended_

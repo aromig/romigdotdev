@@ -11,29 +11,24 @@ A mock up redesign of the Wayne Music Club (Band & Drill Team organization for W
 ---
 
 ![Home Page](/assets/images/project/wmc_ss1.png)
-
-<center>Home Page</center>
+_Home Page_
 
 ---
 
 ![Old vs Proposed](/assets/images/project/wmc_ss2.png)
-
-<center>Old vs Proposed</center>
+_Old vs Proposed_
 
 ---
 
 ![Warriors Info Page](/assets/images/project/wmc_ss3.png)
-
-<center>Warriors Info Page</center>
+_Warriors Info Page_
 
 ---
 
 ![Mobile Layout](/assets/images/project/wmc_ss4.png)
-
-<center>Mobile Layout</center>
+_Mobile Layout_
 
 ---
 
 ![Mobile Layout - Menu Extended](/assets/images/project/wmc_ss5.png)
-
-<center>Mobile Layout - Menu Extended</center>
+_Mobile Layout - Menu Extended_

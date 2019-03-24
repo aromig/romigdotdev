@@ -11,11 +11,9 @@ I implemented a small workflow application into LN Dayton Desktop Support's soft
 ---
 
 ![Software Request Form](/assets/images/project/swrf_ss1.png)
-
-<center>Software Request Form</center>
+_Software Request Form_
 
 ---
 
 ![Approval Queue](/assets/images/project/swrf_ss2.png)
-
-<center>Approval Queue</center>
+_Approval Queue_

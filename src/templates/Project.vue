@@ -86,6 +86,13 @@ export default {
   max-width: 85%;
 }
 
+img + em {
+  font-style: normal;
+  display: inherit;
+  text-align: center;
+  font-size: 80%;
+}
+
 @media (max-width: 700px) {
   .project-item-title {
     font-size: 1.35rem;

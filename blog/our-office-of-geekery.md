@@ -18,47 +18,39 @@ After getting the shelves mounted, she proceeded to find homes for all of our st
 ---
 
 ![Shelves upon shelves to put our toys](/assets/images/blog/office_remodel/office_remodel_1.jpg)
-
-<center>Shelves upon shelves to put our toys</center>
+_Shelves upon shelves to put our toys_
 
 ---
 
 ![Wide open spaces](/assets/images/blog/office_remodel/office_remodel_2.jpg)
-
-<center>Wide open spaces</center>
+_Wide open spaces_
 
 ---
 
 ![Side of the room with her desk](/assets/images/blog/office_remodel/office_remodel_3.jpg)
-
-<center>Side of the room with her desk</center>
+_Side of the room with her desk_
 
 ---
 
 ![Those Star Wars prints were fun to get centered](/assets/images/blog/office_remodel/office_remodel_4.jpg)
-
-<center>Those Star Wars prints were fun to get centered</center>
+_Those Star Wars prints were fun to get centered_
 
 ---
 
 ![Small child-sized desk by the Groots](/assets/images/blog/office_remodel/office_remodel_5.jpg)
-
-<center>Small child-sized desk by the Groots</center>
+_Small child-sized desk by the Groots_
 
 ---
 
 ![The fish tank is empty but possibly we'll have a dragon in there sleeping on a pile of gold with a sneaksies little hobbit. And maybe some fish, too.](/assets/images/blog/office_remodel/office_remodel_6.jpg)
-
-<center>The fish tank is empty but possibly we'll have a dragon in there sleeping on a pile of gold with a sneaksies little hobbit. And maybe some fish, too.</center>
+_The fish tank is empty but possibly we'll have a dragon in there sleeping on a pile of gold with a sneaksies little hobbit. And maybe some fish, too._
 
 ---
 
 ![Some miscellanea on the printer shelf](/assets/images/blog/office_remodel/office_remodel_7.jpg)
-
-<center>Some miscellany on the printer shelf</center>
+_Some miscellany on the printer shelf_
 
 ---
 
 ![#porgs on my desk](/assets/images/blog/office_remodel/office_remodel_8.jpg)
-
-<center>#porgs on my desk</center>
+_#porgs on my desk_

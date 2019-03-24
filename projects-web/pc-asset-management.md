@@ -15,47 +15,39 @@ In 2015, a "Global PC Request" form was introduced by the Service-Now team to fa
 ---
 
 ![Front Page w/ Recent Release Notes](/assets/images/project/pam/pam_cover.png)
-
-<center>Front Page w/ Recent Release Notes</center>
+_Front Page w/ Recent Release Notes_
 
 ---
 
 ![Request Queue](/assets/images/project/pam/pam_requestqueue.png)
-
-<center>Request Queue</center>
+_Request Queue_
 
 ---
 
 ![Check Out](/assets/images/project/pam/pam_checkout.png)
-
-<center>Check Out</center>
+_Check Out_
 
 ---
 
 ![PC Request Form](/assets/images/project/pam/pam_pcform.png)
-
-<center>PC Request Form</center>
+_PC Request Form_
 
 ---
 
 ![Custom Report](/assets/images/project/pam/pam_customreport.png)
-
-<center>Custom Report</center>
+_Custom Report_
 
 ---
 
 ![Metrics Dashboard](/assets/images/project/pam/pam_metrics.png)
-
-<center>Metrics Dashboard</center>
+_Metrics Dashboard_
 
 ---
 
 ![Bulk Import from Excel Spreadsheet](/assets/images/project/pam/pam_bulkinsert.png)
-
-<center>Bulk Import from Excel Spreadsheet</center>
+_Bulk Import from Excel Spreadsheet_
 
 ---
 
 ![Site Options](/assets/images/project/pam/pam_siteoptions.png)
-
-<center>Site Options</center>
+_Site Options_

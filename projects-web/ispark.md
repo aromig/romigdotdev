@@ -21,5 +21,4 @@ This included:
 ---
 
 ![iSpark Front Page](/assets/images/project/ispark_cover.jpg)
-
-<center>iSpark Front Page</center>
+_iSpark Front Page_

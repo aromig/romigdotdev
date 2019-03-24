@@ -17,5 +17,4 @@ Assisted with customizing and styling the RETS Service Desk ChatBot.
 ---
 
 ![ChatBot](/assets/images/project/rets_chatbot_cover.png)
-
-<center>ChatBot</center>
+_ChatBot_

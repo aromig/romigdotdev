@@ -11,59 +11,49 @@ These mock-ups were made to demonstrate a potential redesign of Sinclair Communi
 ---
 
 ![iPad Layout](/assets/images/project/sinclair_cover.png)
-
-<center>iPad Layout</center>
+_iPad Layout_
 
 ---
 
 ![Tablet Layout](/assets/images/project/msinclair_tablet.png)
-
-<center>Tablet Layout</center>
+_Tablet Layout_
 
 ---
 
 ![Tablet Layout with menu extended](/assets/images/project/msinclair_tablet_menu.png)
-
-<center>Tablet Layout with menu extended</center>
+_Tablet Layout with menu extended_
 
 ---
 
 ![iPhone Layout](/assets/images/project/msinclair_phone_iphone.png)
-
-<center>iPhone Layout</center>
+_iPhone Layout_
 
 ---
 
 ![Phone Layout](/assets/images/project/msinclair_phone.png)
-
-<center>Phone Layout</center>
+_Phone Layout_
 
 ---
 
 ![Phone Layout with menu extended](/assets/images/project/msinclair_phone_menu.png)
-
-<center>Phone Layout with menu extended</center>
+_Phone Layout with menu extended_
 
 ---
 
 ![Schedule Planner](/assets/images/project/msinclair_scheduleplanner_tablet_form.png)
-
-<center>Schedule Planner</center>
+_Schedule Planner_
 
 ---
 
 ![Schedule Planner Results](/assets/images/project/msinclair_scheduleplanner_tablet_results.png)
-
-<center>Schedule Planner Results</center>
+_Schedule Planner Results_
 
 ---
 
 ![Schedule Planner Details](/assets/images/project/msinclair_scheduleplanner_tablet_details.png)
-
-<center>Schedule Planner Details</center>
+_Schedule Planner Details_
 
 ---
 
 ![Schedule Planner Details with Books](/assets/images/project/msinclair_scheduleplanner_tablet_details_books.png)
-
-<center>Schedule Planner Details with Books</center>
+_Schedule Planner Details with Books_

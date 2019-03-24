@@ -11,11 +11,9 @@ News Barometer is a local weekly newspaper in the Florida Keys. The redesign of 
 ---
 
 ![Front Page](/assets/images/project/nb_ss1.png)
-
-<center>Front Page</center>
+_Front Page_
 
 ---
 
 ![Site Design Progression](/assets/images/project/nb_ss2.png)
-
-<center>Site Design Progression</center>
+_Site Design Progression_
