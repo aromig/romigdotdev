@@ -9,6 +9,8 @@
       </div>
     </section>
 
+    <hr />
+
     <h3>Graphic Work</h3>
     <section class="project-list">
       <div v-for="project in $static.projects.edges" :key="project.node.id">

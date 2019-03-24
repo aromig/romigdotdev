@@ -118,7 +118,7 @@ export default {
   max-width: 85%;
 }
 
-img + em {
+img + em, /* not supported yet! -> [ a:has(> img) + em ] so will use this instead*/ a + em {
   font-style: normal;
   display: inherit;
   text-align: center;
