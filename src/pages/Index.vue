@@ -111,11 +111,11 @@ export default {
         { property: "og:updated_time", content: "" },
         {
           property: "og:image",
-          content: "https://romig.dev/assets/images/romig_dev_cover.png"
+          content: "https://romig.dev/assets/images/project/romig_dev_cover.png"
         },
         {
           property: "og:image:secure_url",
-          content: "https://romig.dev/assets/images/romig_dev_cover.png"
+          content: "https://romig.dev/assets/images/project/romig_dev_cover.png"
         }
       ]
     };
