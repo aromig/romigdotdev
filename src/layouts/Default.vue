@@ -34,8 +34,8 @@ export default {
       profile: {
         linkedin: "adamromig",
         github: "aromig",
-        codepen: "penguingeek",
-        twitter: "penguingeek"
+        codepen: "aromig",
+        twitter: "adam_romig"
       }
     };
   },
