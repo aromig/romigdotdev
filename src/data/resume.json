@@ -25,7 +25,7 @@
         "name": "Frameworks",
         "list": [
           { "skill": "ASP.Net", "level": "3" },
-          { "skill": "WebAPI", "level": "2" },
+          { "skill": "WebAPI", "level": "1" },
           { "skill": "Vue.js", "level": "2" }
         ]
       },

@@ -61,7 +61,7 @@
     <section class="this_site">
       <h2>This Site</h2>
       <p>
-        This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome" target="_blank" rel="nofollow">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify" target="_blank" rel="nofollow">Netlify</a>. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
+        This site is built with <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and <a href="https://gridsome.org" aria-label="Go to gridsome" target="_blank" rel="nofollow">Gridsome</a>, hosted on <a href="https://www.netlify.com/" aria-label="Go to Netlify" target="_blank" rel="nofollow">Netlify</a>. The main font is <a href="https://fonts.google.com/specimen/Open+Sans" aria-label="Go to Google Fonts" target="_blank" rel="nofollow">Open Sans</a> and any icons used are from <a href="https://fontawesome.com/" aria-label="Go to Font Awesome" target="_blank" rel="nofollow">Font Awesome</a>. A full write-up on its creation can be found in <a href="/blog/new-site-with-vue-and-gridsome" aria-label="Read more about the site's creation">an article here</a>. The source code is available to look at on <a href="https://github.com/aromig/romigdotdev" aria-label="Go to the Github repository">Github</a>.
       </p>
     </section>
     <section class="contact">
@@ -96,6 +96,10 @@ export default {
     width: 200px;
     height: 200px;
   }
+}
+
+.skills ul {
+  margin-left: -15px;
 }
 
 @media (max-width: 700px) {

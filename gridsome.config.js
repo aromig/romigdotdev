@@ -19,6 +19,8 @@ module.exports = {
         typeName: "Post",
         route: "/blog/:slug",
         remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"],
           plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
         }
       }
@@ -30,6 +32,8 @@ module.exports = {
         typeName: "Project",
         route: "/projects/:slug",
         remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"],
           plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
         }
       }
@@ -41,6 +45,8 @@ module.exports = {
         typeName: "GraphicProject",
         route: "/projects/g/:slug",
         remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"],
           plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
         }
       }

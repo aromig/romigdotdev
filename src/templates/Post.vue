@@ -96,7 +96,12 @@ export default {
   color: #369;
 }
 
-.post-content pre {
+.post-content pre:not(.shiki) {
+  background-color: #1E1E1E;
+  color: #ddd; 
+}
+
+.post-content pre, .post-content pre.shiki {
   max-width: 700px;
   overflow-x: scroll;
   /*white-space: pre-wrap;
