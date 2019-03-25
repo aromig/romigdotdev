@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-  repo: aromig/romgidotdev
 
 media_folder: "static/assets/images/blog"
 public_folder: "/assets/images/blog"
