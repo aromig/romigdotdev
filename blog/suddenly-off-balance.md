@@ -1,6 +1,6 @@
 ---
 title: "Suddenly Off Balance"
-excerpt: "Another lesson in never taking anything in life for granted. Even if you've only temporarily lost it."
+excerpt: "How I went from feeling totally normal one minute to being off-kilter the next. And a life lesson in here somewhere."
 date: "2019-03-26T19:36:00-04:00"
 cover: "/assets/images/blog/generic_life_cover.jpg"
 ---
