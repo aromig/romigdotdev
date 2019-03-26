@@ -6,10 +6,9 @@
     <div class="profile">
       <h3>Adam Romig</h3>
       <p>
-        I am a full-stack developer located in Dayton, Ohio, with experience in
-        front-end, back-end, and database technolgoies. I enjoy making web
-        sites, applications, and scripts to make my team's and customers' lives
-        easier.
+        I am a full-stack developer located in the American Midwest. I
+        occassionally write about web development, new things I've learned, and
+        matters that are important to me.
       </p>
     </div>
   </section>
