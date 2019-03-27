@@ -170,7 +170,7 @@
       {
         "name": "romig.dev",
         "date": "2019-03-20",
-        "stack": "PHP, mySQL, JavaScript, AJAX",
+        "stack": "JavaScript, Vue.js, Gridsome",
         "stub": "/projects/romig-dev"
       },
       {
