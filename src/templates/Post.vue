@@ -124,11 +124,28 @@ export default {
   max-width: 85%;
 }
 
+.post-content ul {
+  margin-left: -15px;
+  li > p {
+    margin: 0;
+  }
+}
+
 img + em, /* not supported yet! -> [ a:has(> img) + em ] so will use this instead*/ a + em {
   font-style: normal;
   display: inherit;
   text-align: center;
   font-size: 80%;
+}
+
+blockquote {
+  margin: 0 10px;
+  padding-left: 20px;
+  border-left: 2px solid #999;
+  p {
+    font-size: 1.25rem;
+    font-style: italic;
+  }
 }
 
 @media (max-width: 700px) {
