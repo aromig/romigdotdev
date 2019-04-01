@@ -317,39 +317,56 @@ Now for its template. Between the `<template>` tags, we can write the following:
     :class="{ completed: todo.completed }"
     class="task"
     @click="toggleTodo(todo.id)"
-    @dblclick="deleteTodo(todo.id)"
   >
     {{ todo.task }}
+    <span class="delete" @click="deleteTodo(todo.id)">ⓧ</span>
   </li>
 </ul>
 ```
 
-The list gets created by the `v-for` directive in the `<li>` tags, looping through the `todos` array. We'll set up our methods for toggling/deleting to the click and double-click events, respectively. Also a "completed" class is added to the list item if its completed property is true.
+The list gets created by the `v-for` directive in the `<li>` tags, looping through the `todos` array. We'll set up our methods for toggling/deleting to the click events of the list item & .delete span, respectively. Also a "completed" class is added to the list item if its completed property is true.
 
 For styles, we can add the following between the `<style>` tags:
 
 ```css
 .tasks {
-  padding-left: 1.5rem;
+  padding: 0;
   list-style-type: none;
 }
+
 .task {
+  padding: 10px;
   margin-bottom: 0.5rem;
+  border: 0.5px solid #999;
+  border-radius: 5px;
   color: #34495e;
   font-weight: bold;
 }
+
 .task:before {
   content: "\2002";
 }
+
 .task:hover {
   cursor: pointer;
 }
+
 .completed {
   text-decoration: line-through;
   color: #41b883;
 }
+
 .completed:before {
   content: "\2714";
+}
+
+.delete {
+  display: block;
+  float: right;
+  color: #d22;
+  width: 1.25rem;
+  height: 1.25rem;
+  text-align: center;
 }
 ```
 
@@ -510,7 +527,7 @@ And we should be done! Go ahead and check the URL where the development server i
 
 You should be able to type a new task into the text box and it should appear in the list below it when the Enter/Return key is pressed.
 
-When the list item is clicked once, its color should change to green and get a strike-through. Double-clicking a list item should remove it from the list.
+When the list item is clicked once, its color should change to green and get a strike-through. Clicking the ⓧ icon on an item should remove it from the list.
 
 ![Vue To-Do App Finished](/assets/images/blog/vue-todo-finished.png)
 
