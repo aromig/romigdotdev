@@ -186,18 +186,6 @@
         "stub": "/projects/meep-2016"
       },
       {
-        "name": "Wayne Music Club (Mock Up)",
-        "date": "2014-08-29",
-        "stack": "HTML, CSS, Bootstrap",
-        "stub": "/projects/wayne-music-club-mock-up"
-      },
-      {
-        "name": "Huber Heights City Schools (Mock Up)",
-        "date": "2014-09-29",
-        "stack": "HTML, CSS, Bootstrap",
-        "stub": "/projects/huber-heights-city-schools-mock-up"
-      },
-      {
         "name": "News Barometer",
         "date": "2008-06-29",
         "stack": "PHP, mySQL, WordPress",
