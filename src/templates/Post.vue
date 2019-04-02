@@ -92,42 +92,48 @@ export default {
   font-weight: 300;
 }
 
-.post-content a {
-  color: #369;
-}
-
-.post-content pre:not(.shiki) {
-  background-color: #1e1e1e;
-  color: #ddd;
-}
-
-.post-content pre,
-.post-content pre.shiki {
-  max-width: 700px;
-  overflow-x: scroll;
-  /*white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-pre-wrap;
-  white-space: -o-pre-wrap;*/
-  word-wrap: break-word;
-  padding: 10px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-}
-
-.post-content code {
-  font-size: 1rem;
-}
-
-.post-content img {
-  display: block;
-  margin: 0 auto;
-  max-width: 85%;
-}
-
-.post-content ul {
-  margin-left: -15px;
-  li > p {
-    margin: 0;
+.post-content {
+  h2 {
+    text-decoration: underline;
+  }
+  a {
+    color: #369;
+    text-decoration: underline;
+  }
+  pre:not(.shiki) {
+    background-color: #1e1e1e;
+    color: #ddd;
+  }
+  pre,
+  pre.shiki {
+    max-width: 700px;
+    overflow-x: scroll;
+    word-wrap: break-word;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  code {
+    font-size: 0.9rem;
+    font-family: "Dank Mono", "Fira Code", Inconsolata, "Source Code Pro",
+      monospace;
+    &.shiki-inline {
+      font-size: 1rem;
+      font-family: "Dank Mono", "Fira Code", Inconsolata, "Source Code Pro",
+        monospace;
+      padding: 0.2rem;
+    }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 85%;
+  }
+  ul {
+    margin-left: -15px;
+    li > p {
+      margin: 0;
+    }
   }
 }
 

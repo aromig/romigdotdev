@@ -120,6 +120,7 @@ li,
 form {
   font-size: 1.1rem;
   font-weight: 300;
+  color: #333;
 }
 
 h1,
@@ -131,6 +132,7 @@ h6 {
   font-family: "Open Sans", "Segoe UI", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-weight: 600;
+  color: #444;
 }
 
 hr {
