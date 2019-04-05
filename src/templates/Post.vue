@@ -132,6 +132,9 @@ export default {
   }
   ul {
     margin-left: -15px;
+    li {
+      margin: 10px 0;
+    }
     li > p {
       margin: 0;
     }
