@@ -62,7 +62,7 @@ body {
   padding-right: env(safe-area-inset-right);
   line-height: 1.5;
   height: 100vh;
-  background: linear-gradient(45deg, #111, #444) no-repeat fixed;
+  background: linear-gradient(15deg, #444 25%, #666) no-repeat fixed;
   text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -90,7 +90,8 @@ body {
   height: 80px;
   padding: 0 20px;
   background-color: #fff;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  //box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #666;
   z-index: 5;
 }
 
@@ -120,7 +121,7 @@ li,
 form {
   font-size: 1.1rem;
   font-weight: 300;
-  color: #333;
+  color: #222;
 }
 
 h1,

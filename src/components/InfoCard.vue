@@ -7,8 +7,9 @@
       <h3>Adam Romig</h3>
       <p>
         I am a full-stack developer located in the American Midwest. I
-        occassionally write about web development, new things I've learned, and
-        matters that are important to me.
+        occassionally write about development, new things I've learned, and
+        matters that are important to me. Feel free to
+        <g-link to="/contact">contact me</g-link> or find me on social media.
       </p>
     </div>
   </section>

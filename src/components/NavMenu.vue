@@ -64,7 +64,7 @@ export default {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #444;
+    background: #666;
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
@@ -96,20 +96,21 @@ export default {
     width: 200px;
     margin: 29px 0 0 -185px;
     padding: 25px 25px;
-    background: rgba(0, 0, 0, 0.9);
-    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgba(50, 50, 50, 0);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
     transform-origin: 0% 0%;
     transform: translate(120%, 0%);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+      background-color 0.75s ease-out;
   }
   #menu li {
     padding: 10px 0;
     & a {
       display: block;
-      color: #efefef;
+      color: rgba(250, 250, 250, 0);
+      transition: color 0.75s ease-out;
       &:hover {
         border-bottom: 1px solid #fff;
       }
@@ -117,6 +118,11 @@ export default {
   }
   #menuToggle input:checked ~ #menu {
     transform: none;
+    background-color: rgba(50, 50, 50, 0.9);
+    box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.5);
+  }
+  #menuToggle input:checked ~ #menu li a {
+    color: rgba(250, 250, 250, 1);
   }
 }
 
