@@ -93,10 +93,6 @@ export default {
 }
 
 .post-content {
-  h2 {
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
-  }
   a {
     color: #369;
     text-decoration: underline;

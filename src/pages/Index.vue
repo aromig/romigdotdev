@@ -128,7 +128,20 @@ export default {
 
 <style lang="scss">
 .latest-post {
-  & a {
+  .latest-post-cover {
+    object-fit: cover;
+    object-position: 0 0;
+    width: 100%;
+    max-height: 330px;
+    border: 1px solid #444;
+  }
+
+  .latest-post-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+  }
+  a {
     display: block;
     width: 90%;
     margin: 0 auto;
@@ -142,20 +155,6 @@ export default {
       color: #369;
     }
   }
-}
-
-.latest-post-cover {
-  object-fit: cover;
-  object-position: 0 0;
-  width: 100%;
-  max-height: 330px;
-  border: 1px solid #444;
-}
-
-.latest-post-title {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0;
 }
 
 @media (max-width: 700px) {

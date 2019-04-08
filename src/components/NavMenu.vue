@@ -6,7 +6,7 @@
       <span></span>
       <span></span>
       <ul id="menu">
-        <li><g-link class="nav__link" to="/">Home</g-link></li>
+        <!-- <li><g-link class="nav__link" to="/">Home</g-link></li> -->
         <li><g-link class="nav__link" to="/blog">Blog</g-link></li>
         <li><g-link class="nav__link" to="/resume">Resume</g-link></li>
         <li><g-link class="nav__link" to="/projects">Projects</g-link></li>

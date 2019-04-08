@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <h2>Projects</h2>
-    <h3>Web Development</h3>
+    <h3 class="heading">Web Development</h3>
 
     <section class="project-list">
       <div v-for="project in $page.projects.edges" :key="project.node.id">
@@ -9,9 +9,7 @@
       </div>
     </section>
 
-    <hr />
-
-    <h3>Graphic Work</h3>
+    <h3 class="heading">Graphic Work</h3>
     <section class="project-list">
       <div v-for="project in $static.projects.edges" :key="project.node.id">
         <ProjectCard :project="project.node"></ProjectCard>
@@ -70,7 +68,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+h3.heading {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
 .project-list {
   display: flex;
   flex-direction: column;
