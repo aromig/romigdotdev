@@ -154,13 +154,52 @@ blockquote {
   }
 }
 
+@media (min-width: 700px) {
+  .post-content {
+    .article_nav {
+      float: right;
+      width: 250px;
+      margin-left: 10px;
+      padding: 15px;
+      border: 0.5px solid #ccc;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+      ul {
+        list-style-type: square;
+        li {
+          margin: 5px 0;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 700px) {
   .post-title {
     font-size: 1.35rem;
     font-weight: 400;
   }
-  .post-content img {
-    max-width: 95%;
+  .post-content {
+    .article_nav {
+      padding: 15px;
+      border: 0.5px solid #ccc;
+      border-left: none;
+      border-right: none;
+      ul {
+        list-style-type: square;
+        li {
+          margin: 5px 0;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    img {
+      max-width: 95%;
+    }
   }
 }
 </style>

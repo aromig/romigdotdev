@@ -5,6 +5,23 @@ date: "2019-04-06T11:36:00-04:00"
 cover: "/assets/images/blog/generic_code_cover.jpg"
 ---
 
+<div class="article_nav">
+
+Articles
+
+- Data Types, Structs, and Classes
+- [Class Modifiers](/blog/c-oop-primer-class-modifiers)
+
+Jump to:
+
+- [Data Types](#data-types)
+- [Structs](#structs)
+- [Classes](#classes)
+- [Value Types vs Reference Types](#value-types-vs-reference-types)
+  - [Memory Allocation](#memory-allocation)
+
+</div>
+
 Object Oriented Programming, or OOP, is a programming pattern where everything is grouped as _objects_ allowing the programmer to gain reusability and collaboration between them. An object in OOP is a set of code that can perform a set of related activities such as:
 
 - Store Information
@@ -151,7 +168,7 @@ Like a struct, a class must be instantiated into an object. Above, the object _B
 
 ---
 
-## Values Types vs Reference Types
+## Value Types vs Reference Types
 
 ### How different is a class from a struct?
 
@@ -307,5 +324,3 @@ With C# we can let the CLR take care of the technical bits of memory allocation 
 ## Whew!
 
 Thank you for reading! That was quite a bit to go through. I hope this article helped you understand the basics of data types, structs, and classes. In the next primer, we will talk more about classes and how to build more complex objects with them.
-
-<!-- Next: [OOP Primer: More on Classes](/blog/c-oop-primer-more-on-classes) -->
