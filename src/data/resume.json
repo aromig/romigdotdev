@@ -122,24 +122,9 @@
             "stub": "/projects/pam-rest-service"
           },
           {
-            "name": "RE Homepage Selector",
-            "stack": "JavaScript",
-            "stub": "/projects/re-homepage-selector"
-          },
-          {
             "name": "PC Asset Management",
             "stack": "ASP.Net, C#, T-SQL",
             "stub": "/projects/pc-asset-management-pam"
-          },
-          {
-            "name": "Customer Survey Tool",
-            "stack": "ASP.Net, C#, T-SQL",
-            "stub": "/projects/customer-survey-tool"
-          },
-          {
-            "name": "Software Request Form",
-            "stack": "ASP.Net, C#, T-SQL",
-            "stub": "/projects/software-request-form"
           }
         ]
       },
