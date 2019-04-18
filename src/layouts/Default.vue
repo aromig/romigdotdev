@@ -121,7 +121,7 @@ li,
 form {
   font-size: 1.1rem;
   font-weight: 300;
-  color: #333;
+  color: #222;
 }
 
 h1,
