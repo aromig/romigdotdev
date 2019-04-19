@@ -98,8 +98,8 @@ export default {
     text-decoration: underline;
   }
   pre:not(.shiki) {
-    background-color: #1e1e1e;
-    color: #ddd;
+    background-color: #fff;
+    color: #222;
   }
   pre,
   pre.shiki {
@@ -107,8 +107,9 @@ export default {
     overflow-x: scroll;
     word-wrap: break-word;
     padding: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    //box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    //border-radius: 5px;
   }
   code {
     font-size: 0.9rem;
@@ -133,6 +134,20 @@ export default {
     }
     li > p {
       margin: 0;
+    }
+  }
+  .fiddle_container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0;
+      height: 100%;
+      width: 100%;
     }
   }
 }

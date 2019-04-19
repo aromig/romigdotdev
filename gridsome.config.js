@@ -27,7 +27,7 @@ module.exports = {
         remark: {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],
-          plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
+          plugins: [["gridsome-plugin-remark-shiki", { theme: "light_vs" }]]
         }
       }
     },
