@@ -189,7 +189,7 @@ class Age
 
 ### Static
 
-Variables and methods marked as **static** belong _only_ to the class, not the object that is created. Within memory, there is only one copy of the static member. This member must be accessed by the class, not the object.
+Variables and methods marked as **static** belong _only_ to the class, not the object that is created. Within memory, there is only one copy of the static member. This member must be accessed by the class, not the object. In the example below in the Main() method, try changing `Cat.Meow();` to `c2.Meow();` and notice the error that is reported.
 
 <div class="fiddle_container">
 <iframe src="https://dotnetfiddle.net/Widget/x2hLJ1" frameborder="0"></iframe>
