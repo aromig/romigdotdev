@@ -1,6 +1,14 @@
 <template>
   <Layout>
-    <h2>Resume</h2>
+    <header class="resume_header">
+      <h2>Resume</h2>
+      <div class="pdf_download">
+        <a href="/assets/docs/AdamRomig_Resume2019.pdf" target="_blank">
+          <FA-Icon :icon="['far', 'file-pdf']" class="fa-lg"></FA-Icon> Download
+          PDF</a
+        >
+      </div>
+    </header>
     <h3 class="resume-section">Summary</h3>
     <p>{{ $options.resume.summary }}</p>
 
@@ -75,6 +83,24 @@ li {
   margin-left: -15px;
   & > li {
     font-size: 1rem;
+  }
+}
+
+.resume_header {
+  display: flex;
+  align-items: center;
+  .pdf_download {
+    flex: 1;
+    text-align: right;
+    a {
+      appearance: button;
+      text-decoration: none;
+      color: initial;
+      padding: 5px;
+      &:hover {
+        color: #369;
+      }
+    }
   }
 }
 </style>

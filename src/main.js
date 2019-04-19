@@ -3,12 +3,13 @@
 
 import DefaultLayout from "~/layouts/Default.vue";
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 import { faAsterisk } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faGithub,
   faCodepen,
-  faTwitter
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -16,7 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 require("typeface-open-sans");
 require("typeface-open-sans-condensed");
 
-library.add(faAsterisk, faLinkedin, faGithub, faCodepen, faTwitter);
+library.add(faAsterisk, faFilePdf, faLinkedin, faGithub, faCodepen, faTwitter);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
