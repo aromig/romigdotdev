@@ -82,7 +82,9 @@ Let's create a simple hero for a role-playing game. This _Hero_ can specialize i
 
 The use of polymorphism may not seem apparent right away but without it, the base class would have to account for each and every version of our hero types. This can lead to overly complicated [spaghetti code](https://en.wikipedia.org/wiki/Spaghetti_code) and overloaded methods (methods with mutiple implementations, explained in detail later), all within the base class. These variations belong in the derived classes, keeping it organized. The purpose of polymorphism has a lot to do with having concise and semantic code that will be maintainable.
 
-Using the example above, the different Weapon attributes cannot be placed in the base Hero class. Not all heroes know how to use all weapons, only those who trained with them - hence the derived classes for each specialty.
+Using this example, the different Weapon attributes cannot be placed in the base Hero class. Not all heroes know how to use all weapons, only those who trained with them - hence the derived classes for each specialty.
+
+In the .NET Fiddle box above in the Main() method, go ahead and change the class that we're using to create our avatar (e.g. change Rogue to Archer, Warrior, or even just plain Hero).
 
 ### Abstract Classes
 
