@@ -11,6 +11,7 @@ Articles
 
 - [Data Types, Structs, and Classes](/blog/c-oop-primer-data-types-structs-and-classes)
 - Class Modifiers
+- [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 
 Jump to:
 
@@ -190,28 +191,9 @@ class Age
 
 Variables and methods marked as **static** belong _only_ to the class, not the object that is created. Within memory, there is only one copy of the static member. This member must be accessed by the class, not the object.
 
-```java
-class Cat
-{
-  public static int count = 0;
-  public static void Meow()
-  {
-    Console.WriteLine("Meow");
-  }
-  public Cat()
-  {
-    count++;
-  }
-}
-
-static void Main()
-{
-  Cat c1 = new Cat();
-  Cat c2 = new Cat();
-  Console.WriteLine(Cat.count); // outputs: 2
-  Cat.Meow();
-}
-```
+<div class="fiddle_container">
+<iframe src="https://dotnetfiddle.net/Widget/x2hLJ1" frameborder="0"></iframe>
+</div>
 
 Static classes can only contain static members and cannot be instantiated into an object. Common examples of static classes are the Main and Math classes.
 
@@ -240,28 +222,9 @@ In this example, every time a Person object is created, "Hello there!" will be w
 
 Constructors can be used for setting intial values via parameters.
 
-```java
-class Person
-{
-  private string name;
-
-  public Person(string _name)
-  {
-    name = _name;
-  }
-
-  public string getName()
-  {
-    return name;
-  }
-}
-
-static void Main()
-{
-  Person bob = new Person("Bob");
-  Console.WriteLine(bob.getName()); // outputs: "Bob"
-}
-```
+<div class="fiddle_container">
+<iframe src="https://dotnetfiddle.net/Widget/5EVyaM" frameborder="0"></iframe>
+</div>
 
 ## Class Destructors
 
@@ -285,42 +248,9 @@ The `this` keyword can be used inside a class to refer to the current instance o
 
 If you're still confused how on what `this` refers to, go outside its code block (where its braces `{ }`'s are) one level. See below:
 
-```java
-class Person
-{
-  public string name { get; set; }
-
-  public Person(string name)
-  {
-    // using this to distinguish between the class variable name & the parameter name
-    this.name = name;
-  }
-
-  public void GetDetails()
-  {
-    Console.WriteLine("Name: {0}", name);
-    // using this to pass the current instance of this class to another class method
-    Console.WriteLine("Favorite Number: {0}", Stuff.MakeNumberFromName(this));
-  }
-}
-
-class Stuff
-{
-  public int MakeNumberFromName(Person p)
-  {
-    return p.name.Length * 10;
-  }
-}
-
-static void Main()
-{
-  Person Bob = new Person("Bob");
-  Bob.GetDetails();
-  // outputs:
-  // Name: Bob
-  // Favorite Number: 30
-}
-```
+<div class="fiddle_container">
+<iframe src="https://dotnetfiddle.net/Widget/kkrWBn" frameborder="0"></iframe>
+</div>
 
 The constructor parameter "name" is assigned to class property "name" using `this.name` to specifically tell which one you are talking about in the code.
 

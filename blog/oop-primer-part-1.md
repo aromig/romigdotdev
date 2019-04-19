@@ -11,6 +11,7 @@ Articles
 
 - Data Types, Structs, and Classes
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
+- [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 
 Jump to:
 
@@ -83,39 +84,9 @@ Structs can:
 
 Think of structs as a _custom data type_!
 
-```java
-struct Book
-{
-  public string title;
-  public double price;
-  public string author;
-}
-
-struct Coords
-{
-  public int x;
-  public int y;
-
-  // constructor
-  public Coords(int p1, int p2) {
-    x = p1;
-    y = p2;
-  }
-}
-
-static void Main()
-{
-  Book myFavBook;
-  myFavBook.title = "The Fellowship of the Rings";
-  myFavBook.author = "J.R.R. Tolkien";
-  myFavBook.price = 29.99;
-
-  Coords point = new Coords(42, 69);
-
-  Console.WriteLine(myFavBook.title); // outputs: "The Fellowship of the Ring"
-  Console.WriteLine("x = {0}, y = {1}", point.x, point.y); // outputs: x = 42, y = 69
-}
-```
+<div class="fiddle_container">
+<iframe src="https://dotnetfiddle.net/Widget/vfjHGA" frameborder="0"></iframe>
+</div>
 
 When we create a variable or object, it is said to be **instantiated**. This means that we're taking the concept of the struct (or class) and making it a real object that we can use in our program.
 
@@ -135,34 +106,9 @@ A **class** is a collection of items such as fields, properties, & methods that 
 
 Example class:
 
-```java
-public class Person
-{
-  private string name;
-  private int age;
-
-  public Person(string name, int age)
-  {
-    this.name = name;
-    this.age = age;
-  }
-
-  public void SayHello()
-  {
-    Console.WriteLine("Hello");
-  }
-}
-
-static void Main()
-{
-  // Create a new Person object named Bob
-  Person Bob = new Person("Bob", 35);
-
-  // Invoke Bob's SayHello() method
-  // Say hello, Bob. "Hello" he'll say.
-  Bob.SayHello();
-}
-```
+<div class="fiddle_container">
+<iframe src="https://dotnetfiddle.net/Widget/VneOF9" frameborder="0"></iframe>
+</div>
 
 Like a struct, a class must be instantiated into an object. Above, the object _Bob_ is created by instantiating the _Person_ class as such: `Person Bob = new Person();`. Then `Bob` becomes usable as an object. A class can be instantiated multiple times to create as many objects as needed. There is a few more things going on here but those will be covered in the next section of the primer.
 
