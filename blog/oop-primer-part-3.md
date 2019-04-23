@@ -12,6 +12,7 @@ Articles
 - [Data Types, Structs, and Classes](/blog/c-oop-primer-data-types-structs-and-classes)
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
 - Inheritance & Polymorphism
+- [Method Overloading](/blog/c-oop-primer-method-overloading)
 
 Jump to:
 
@@ -137,4 +138,4 @@ Main take-aways:
 
 I admit that all of this information can be a lot to take in but hopefully you can imagine how these complex classes can give a program more structure and maintainability.
 
-In my next article in this series, we'll learn about method & operator overloading as a type of polymorphism.
+In my next article in this series, we'll learn about method overloading as a type of polymorphism.

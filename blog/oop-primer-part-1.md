@@ -1,6 +1,6 @@
 ---
 title: "C# OOP Primer: Data Types, Structs, & Classes"
-excerpt: "Object-oriented programmer can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover the basics: data types, structs, and classes."
+excerpt: "Object-oriented programming can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover the basics: data types, structs, and classes."
 date: "2019-04-06T11:36:00-04:00"
 cover: "/assets/images/blog/generic_code_cover.jpg"
 ---
@@ -12,6 +12,7 @@ Articles
 - Data Types, Structs, and Classes
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
+- [Method Overloading](/blog/c-oop-primer-method-overloading)
 
 Jump to:
 

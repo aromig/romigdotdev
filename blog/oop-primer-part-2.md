@@ -12,6 +12,7 @@ Articles
 - [Data Types, Structs, and Classes](/blog/c-oop-primer-data-types-structs-and-classes)
 - Class Modifiers
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
+- [Method Overloading](/blog/c-oop-primer-method-overloading)
 
 Jump to:
 
