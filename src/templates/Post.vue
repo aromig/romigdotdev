@@ -171,7 +171,8 @@ blockquote {
 
 @media (min-width: 700px) {
   .post-content {
-    .article_nav {
+    .article_nav,
+    .article_aside {
       float: right;
       width: 250px;
       margin-left: 10px;
@@ -197,7 +198,7 @@ blockquote {
     font-weight: 400;
   }
   .post-content {
-    .article_nav {
+    .article_nav, .article_aside {
       padding: 15px;
       border: 0.5px solid #ccc;
       border-left: none;
