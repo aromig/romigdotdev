@@ -35,7 +35,8 @@ export default {
         linkedin: "adamromig",
         github: "aromig",
         codepen: "aromig",
-        twitter: "adam_romig"
+        twitter: "adam_romig",
+        dev: "aromig"
       }
     };
   },

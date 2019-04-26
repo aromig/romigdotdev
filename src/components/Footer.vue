@@ -25,6 +25,12 @@
         title="Twitter Profile"
         ><FA-Icon :icon="['fab', 'twitter']" class="fa-lg"></FA-Icon
       ></a>
+      <a
+        :href="`https://dev.to/${profile.dev}`"
+        aria-label="Go to my Dev profile"
+        title="Dev Profile"
+        ><FA-Icon :icon="['fab', 'dev']" class="fa-lg"></FA-Icon
+      ></a>
     </div>
   </footer>
 </template>

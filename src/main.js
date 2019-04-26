@@ -10,6 +10,7 @@ import {
   faGithub,
   faCodepen,
   faTwitter,
+  faDev
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
@@ -17,7 +18,15 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 require("typeface-open-sans");
 require("typeface-open-sans-condensed");
 
-library.add(faAsterisk, faFilePdf, faLinkedin, faGithub, faCodepen, faTwitter);
+library.add(
+  faAsterisk,
+  faFilePdf,
+  faLinkedin,
+  faGithub,
+  faCodepen,
+  faTwitter,
+  faDev
+);
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
