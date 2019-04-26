@@ -198,7 +198,8 @@ blockquote {
     font-weight: 400;
   }
   .post-content {
-    .article_nav, .article_aside {
+    .article_nav,
+    .article_aside {
       padding: 15px;
       border: 0.5px solid #ccc;
       border-left: none;
