@@ -16,7 +16,7 @@
           I have an Associate's Degree of Applied Business from the <a href="http://www.utoledo.edu/" aria-label="University of Toledo" target="_blank" rel="nofollow">University of Toledo</a>, majoring in Programming &amp; Software Development, but a good portion of my current web development knowledge is self-taught.
         </p>
         <p>
-          When I'm not coding, I am making other things. I <a href="https://github.com/aromig/recipes" rel="nofollow">enjoy cooking</a> and baking cakes for birthdays, special occasions or just for fun. At times I also find myself using hand &amp; power tools for on-the-job learning for home improvement projects or anything my wife can envision.
+          When I'm not coding, I am making other things. I <a href="https://github.com/aromig/recipes">enjoy cooking</a> and <a href="https://cakes.romig.dev" target="_blank">baking cakes</a> for birthdays, special occasions or just for fun. At times I also find myself using hand &amp; power tools for on-the-job learning for home improvement projects or anything my wife can envision.
         </p>
       </div>
       <g-image
