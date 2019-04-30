@@ -46,9 +46,9 @@ export default {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:description", content: this.$page.post.excerpt },
         { name: "twitter:title", content: this.$page.post.title },
-        { name: "twitter:site", content: "@penguingeek" },
+        { name: "twitter:site", content: "@adam_romig" },
         { name: "twitter:image", content: this.getCoverImage },
-        { name: "twitter:creator", content: "@penguingeek" },
+        { name: "twitter:creator", content: "@adam_romig" },
         // open-graph
         { property: "og:updated_time", content: this.$page.post.date },
         { property: "og:image", content: this.getCoverImage },

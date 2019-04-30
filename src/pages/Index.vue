@@ -101,12 +101,12 @@ export default {
           content: "Personal Site & Blog for Adam Romig"
         },
         { name: "twitter:title", content: "Adam Romig" },
-        { name: "twitter:site", content: "@penguingeek" },
+        { name: "twitter:site", content: "@adam_romig" },
         {
           name: "twitter:image",
           content: "https://romig.dev/assets/images/project/romig_dev_cover.png"
         },
-        { name: "twitter:creator", content: "@penguingeek" },
+        { name: "twitter:creator", content: "@adam_romig" },
         // open-graph
         { property: "og:updated_time", content: "" },
         {
