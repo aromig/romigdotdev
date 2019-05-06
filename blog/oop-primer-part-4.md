@@ -2,7 +2,7 @@
 title: "C# OOP Primer: Method Overloading"
 excerpt: "Object-oriented programming can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover method overloading, its usefulness, and its oddities."
 date: "2019-04-23T11:36:00-04:00"
-cover: "/assets/images/blog/generic_code_cover.jpg"
+cover: "/assets/images/blog/oop_primer/oop_primer_part4_cover.jpg"
 ---
 
 <div class="article_nav">
@@ -13,6 +13,7 @@ Articles
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 - Method Overloading
+- [Operator Overloading](/blog/c-oop-primer-operator-overloading)
 
 Jump to:
 
@@ -51,7 +52,7 @@ So our simple example handles integers and doubles but what if we wanted to pass
 
 We can just add an overload for that as well, easy peasy.
 
-```java
+```cpp
 static float Multiply(float a, float b)
 {
   float product = a * b;
@@ -89,7 +90,7 @@ Another feature that can be used to work with overloaded methods is _named argum
 <iframe src="https://dotnetfiddle.net/Widget/zgUoiy" frameborder="0"></iframe>
 </div>
 
-Even though an integer was passed as the argument to the Square method, the double overload was called because we called it with `b:` as a named argument. If we had used `a:`, the integer overload would have been used. 
+Even though an integer was passed as the argument to the Square method, the double overload was called because we called it with `b:` as a named argument. If we had used `a:`, the integer overload would have been used.
 
 ## Overloading and Inheritance
 

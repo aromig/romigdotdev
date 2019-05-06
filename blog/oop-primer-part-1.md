@@ -2,7 +2,7 @@
 title: "C# OOP Primer: Data Types, Structs, & Classes"
 excerpt: "Object-oriented programming can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover the basics: data types, structs, and classes."
 date: "2019-04-06T11:36:00-04:00"
-cover: "/assets/images/blog/generic_code_cover.jpg"
+cover: "/assets/images/blog/oop_primer/oop_primer_part1_cover.jpg"
 ---
 
 <div class="article_nav">
@@ -13,6 +13,7 @@ Articles
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 - [Method Overloading](/blog/c-oop-primer-method-overloading)
+- [Operator Overloading](/blog/c-oop-primer-operator-overloading)
 
 Jump to:
 
@@ -52,7 +53,7 @@ The primitive data types in C# are:
 
 Variable initialization examples:
 
-```java
+```cpp
 bool isCoding = true;
 char first_initial = 'A';
 int x = 12;
@@ -139,7 +140,7 @@ In general, use structs for small data structures that contain primarily data th
 
 Below is an example of the difference between them:
 
-```java
+```cpp
 // Point is a *struct*, which allocates a value in memory
 Point p1 = new Point();
 
@@ -178,7 +179,7 @@ void Test(Point p, Form f)
 
 However if the parameters are passed by reference (using the `ref` modifier), there are different results. _ref_ passes the original variable to the method, not a copy.
 
-```java
+```cpp
 // a new value type variable
 Point myPoint = new Point(0, 0);
 // a new reference-type variable
@@ -209,7 +210,7 @@ Built-in data types (such as string, int, double, struct) are used to declare va
 
 The .Net CLR (Common Language Runtime) allocates memory for objects in two places: the **stack** and the **heap**.
 
-![Stack vs Heap Visual](/assets/images/blog/stack-v-heap.jpg "Stack vs Heap Visual")
+![Stack vs Heap Visual](/assets/images/blog/oop_primer/stack-v-heap.jpg "Stack vs Heap Visual")
 
 The stack is a "last-in, first-out" (LIFO) memory structure. When a method is invoked, the CLR bookmarks the top of the stack and then _pushes_ data on the stack when it executes. When the method completes, the CLR resets back to the previous state, essentially _popping_ the method's memory allocations from it.
 
@@ -221,7 +222,7 @@ The heap, however, is better described as a random mess of objects. This allows 
 
 #### Example
 
-```java
+```cpp
 void CreateTextBox()
 {
   string txt = "Hello World";

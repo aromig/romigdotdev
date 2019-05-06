@@ -2,7 +2,7 @@
 title: "C# OOP Primer: Inheritance & Polymorphism"
 excerpt: "Object-oriented programming can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover class inheritance and polymorphism."
 date: "2019-04-19T11:36:00-04:00"
-cover: "/assets/images/blog/generic_code_cover.jpg"
+cover: "/assets/images/blog/oop_primer/oop_primer_part3_cover.jpg"
 ---
 
 <div class="article_nav">
@@ -13,6 +13,7 @@ Articles
 - [Class Modifiers](/blog/c-oop-primer-class-modifiers)
 - Inheritance & Polymorphism
 - [Method Overloading](/blog/c-oop-primer-method-overloading)
+- [Operator Overloading](/blog/c-oop-primer-operator-overloading)
 
 Jump to:
 
@@ -33,6 +34,7 @@ In object-oriented programming, we can create objects from classes. Though what 
 Inheritance allows a class to take on (inherit) properties & methods from another class. The class that is used as a basis for the new class is called the **base class** and the class that is inheriting from it is called the **derived class**. The derived class not only will contain the properties of the base class, but also properties of its own. And there can be multiple derived classes from a base class. In addition, a derived class can be a base class for another class.
 
 > The base/derived relationship can be understood as a **"is a"** clause.
+>
 > - An apple _is a_ fruit.
 > - A square _is a_ shape. Also a triangle _is a_ shape.
 > - A pug _is a_ dog, and a dog _is an_ animal.
@@ -50,7 +52,7 @@ Notice that both classes have their own constructors. Both constructors are call
 3. derived destructor
 4. base destructor
 
-Basically the call order is going inward (from base to derived) when constructing and outward when destructing. If there are multiple levels of derived classes (e.g. base >  derived from base > derived from 1st derived), this pattern follows.
+Basically the call order is going inward (from base to derived) when constructing and outward when destructing. If there are multiple levels of derived classes (e.g. base > derived from base > derived from 1st derived), this pattern follows.
 
 ### base()
 
@@ -109,7 +111,7 @@ Why do this? Because in some situations, there is no meaningful need for the vir
 
 An interface is a completely abstract class, containing only abstract properties and methods (no fields/variables). It's common to preface an interface's name with a capital letter `I`.
 
-An interface simply describes what a class should do. The class implementing the interface must define how to accomplish the behaviors. Think of an interface as a strict guideline to creating the blueprint (class). 
+An interface simply describes what a class should do. The class implementing the interface must define how to accomplish the behaviors. Think of an interface as a strict guideline to creating the blueprint (class).
 
 > A simplified metaphor could be: A house is going to need walls and a roof but how they are built (quantities, sizes, colors, etc) is up to the architect.
 

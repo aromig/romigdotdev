@@ -23,7 +23,7 @@ CodeFile="UserInfoBoxControl.ascx.cs" Inherits="UserInfoBoxControl" %>
 
 And its code-behind:
 
-```java
+```cpp
 using System;
 
 public partial class UserInfoBoxControl : System.Web.UI.UserControl {
@@ -77,7 +77,7 @@ My solution to this problem involved a deep search method involving a couple of 
 
 For this example, in App_Code\Globals.cs
 
-```java
+```cpp
 public static Control GetUCControl(string UserCtl, string Ctl)
 {
   Page page = (Page)HttpContext.Current.CurrentHandler;
@@ -110,7 +110,7 @@ private static Control FindControlRecursive(Control root, string id)
 
 So with those functions in the Globals class, I can now call the first one to recursively find the control I want, making sure to cast it as the proper original control type.
 
-```java
+```cpp
 Label label_name = Globals.GetUCControl("UserInfo", "lblName") as Label;
 
 // And now we can access all of the control's properties
@@ -126,7 +126,7 @@ It seems that I didn't search enough and did this the hard way. Upon further res
 
 In the UserControl's code-behind:
 
-```java
+```cpp
 public partial class UserInfoBoxControl : System.Web.UI.UserControl {
   public string NameText
   {
@@ -138,7 +138,7 @@ public partial class UserInfoBoxControl : System.Web.UI.UserControl {
 
 Within the page's code-behind:
 
-```java
+```cpp
   string name = UserInfo.NameText;
   UserInfo.NameText = "Kind of bodacious! 💥";
 ```

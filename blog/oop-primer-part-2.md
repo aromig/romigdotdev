@@ -2,7 +2,7 @@
 title: "C# OOP Primer: Class Modifiers"
 excerpt: "Object-oriented programming can be a complex paradigm to learn for a beginner. I will try to explain how some of it works. In this article, we'll cover class modifiers and constructors."
 date: "2019-04-11T11:36:00-04:00"
-cover: "/assets/images/blog/generic_code_cover.jpg"
+cover: "/assets/images/blog/oop_primer/oop_primer_part2_cover.jpg"
 ---
 
 <div class="article_nav">
@@ -13,6 +13,7 @@ Articles
 - Class Modifiers
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 - [Method Overloading](/blog/c-oop-primer-method-overloading)
+- [Operator Overloading](/blog/c-oop-primer-operator-overloading)
 
 Jump to:
 
@@ -50,7 +51,7 @@ Objects can be modified with special keywords to change their accessibility. The
 
 Objects marked as **public** can be accessed by any other code, whether it's in the same class or another that references it. There are no restrictions on accessing them.
 
-```java
+```cpp
 class Coords
 {
   public int x;
@@ -72,7 +73,7 @@ static void Main()
 
 **Private** objects are only accessible by the class or struct that it directly declared within. If an access modifier (e.g. private or public) is not specified, the object is private by default.
 
-```java
+```cpp
 class Dog
 {
   private string name;
@@ -113,7 +114,7 @@ static void Main()
 
 If there is no additional logic required for a property other than a getter & setter, we can use an auto-implemented property to save a few lines of code.
 
-```java
+```cpp
 // Instead of
 class Dog
 {
@@ -160,7 +161,7 @@ You can use the `const` keyword to indicate that the variable is a constant, whi
 
 Constants are fairly usable for things such as standard paths or custom values that are easier to read in the code as a name versus a number value.
 
-```java
+```cpp
 const string PUBLIC_URL = "http://www.site.com/";
 const int ACCESS_LVL_ADMIN = 5;
 ```
@@ -173,7 +174,7 @@ Readonly and constants differ in 3 major ways:
 - A readonly field value can be changed in a constructor.
 - A readonly field can be assigned a value that is a result of a calculation. Constants cannot.
 
-```java
+```cpp
 class Age
 {
   readonly int year;
@@ -206,7 +207,7 @@ Constant members (initialized by `const`) are static by definition.
 
 A constructor is a method that is defined within a class (or struct) and is invoked upon instantiation. It has the exact same name as its class, has no return type, and is always public.
 
-```java
+```cpp
 class Person
 {
   public string Name { get; set; }
@@ -231,7 +232,7 @@ Constructors can be used for setting intial values via parameters.
 
 A destructor is a method that is defined within a class and is invoked when an object is destroyed. It has the exact same name as its class, like a constructor, except that it is prefixed with a tilde (~).
 
-```java
+```cpp
 class Person()
 {
   ~Person()
