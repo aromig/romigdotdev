@@ -14,6 +14,7 @@ Articles
 - [Inheritance & Polymorphism](/blog/c-oop-primer-inheritance-and-polymorphism)
 - Method Overloading
 - [Operator Overloading](/blog/c-oop-primer-operator-overloading)
+- [Generics](/blog/c-oop-primer-generics)
 
 Jump to:
 
