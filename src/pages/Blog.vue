@@ -2,6 +2,8 @@
   <Layout>
     <h2>Recent Articles</h2>
 
+    <Pager :info="$page.posts.pageInfo" class="pager" />
+
     <div class="post-list">
       <div
         v-for="post in $page.posts.edges"
@@ -28,7 +30,7 @@
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (sortBy: "date", order: DESC, perPage: 4, page: $page) @paginate {
+  posts: allPost (sortBy: "date", order: DESC, perPage: 5, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -98,7 +100,7 @@ export default {
       object-fit: cover;
       object-position: 50% 50%;
       width: 100%;
-      max-height: 150px;
+      max-height: 100px;
       border: 1px solid #ccc;
     }
     hr.post-divider {
