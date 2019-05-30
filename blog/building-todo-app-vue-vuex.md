@@ -15,6 +15,8 @@ Live Demo: [todo.romig.dev](https://todo.romig.dev)
 
 Source Code: [Github](https://github.com/aromig/vue-todo-vuex)
 
+<div class="article_nav">
+
 Sections:
 
 - [Prerequisites](#prerequisites)
@@ -32,6 +34,8 @@ Sections:
   - [TodoList.vue](#todolistvue)
   - [TodoNew.vue](#todonewvue)
   - [App.vue](#appvue)
+
+</div>
 
 ## Prerequisites
 
