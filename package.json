@@ -17,7 +17,9 @@
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.1",
     "gridsome": "^0.5.8",
+    "gridsome-plugin-netlify-cms": "^1.0.7",
     "gridsome-plugin-remark-shiki": "^0.3.0",
+    "netlify-cms": "^2.9.1",
     "typeface-open-sans": "0.0.54",
     "typeface-open-sans-condensed": "0.0.72"
   },

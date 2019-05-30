@@ -9,7 +9,10 @@ module.exports = {
   siteUrl: "https://romig.dev",
   siteDescription: "Personal Site & Blog for Adam Romig",
   transformers: {
-    remark: {}
+    remark: {
+      externalLinksTarget: "_blank",
+      externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+    }
   },
   plugins: [
     {
@@ -55,6 +58,12 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],
           plugins: [["gridsome-plugin-remark-shiki", { theme: "dark_plus" }]]
         }
+      }
+    },
+    {
+      use: "gridsome-plugin-netlify-cms",
+      options: {
+        publicPath: "/admin"
       }
     }
   ]
