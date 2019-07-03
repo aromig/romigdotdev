@@ -93,6 +93,7 @@ li {
     flex: 1;
     text-align: right;
     a {
+      background-color: #fff;
       appearance: button;
       text-decoration: none;
       color: initial;
