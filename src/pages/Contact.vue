@@ -61,7 +61,7 @@
         ></textarea>
       </div>
 
-      <button type="submit">Submit form</button>
+      <button type="submit">Send it to me!</button>
     </form>
   </Layout>
 </template>
@@ -137,6 +137,18 @@ textarea {
   }
   & input {
     flex-grow: 1;
+  }
+}
+
+button {
+  padding: 10px;
+  border: 0.5px solid #ccc;
+  font: inherit;
+  color: inherit;
+  background-color: #efefef;
+  &:focus {
+    background-color: #ccc;
+    color: #fff;
   }
 }
 

@@ -169,6 +169,29 @@ blockquote {
   }
 }
 
+.tweet-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+details {
+  border: 0.5px solid #ccc;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  box-shadow: 2px 2px 3px rgba(150, 150, 150, 0.25);
+  & > summary {
+    cursor: pointer;
+    border: 0.5px solid #fff;
+    &:hover {
+      border: 0.5px dotted #369;
+    }
+  }
+}
+
+.circle-crop {
+  border-radius: 50%;
+}
+
 @media (min-width: 700px) {
   .post-content {
     .article_nav,
@@ -188,6 +211,9 @@ blockquote {
           }
         }
       }
+    }
+    .article_photo {
+      float: right;
     }
   }
 }
@@ -213,6 +239,9 @@ blockquote {
           }
         }
       }
+    }
+    .article_photo {
+      margin: auto;
     }
     img {
       max-width: 95%;
