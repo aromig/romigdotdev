@@ -49,7 +49,7 @@
       </p>
       <h2>What I'm working on</h2>
       <p>
-        At work, I have been building a metrics dashboard page for the asset management app I built &amp; still maintain. About twice a year I always had to do some custom querying into its database to provide metrics to management. With this dashboard, we can get an instant view into how we're progressing into the current year, as well as past years' data.
+        At work, I have been coding a new version of the REST API that imports equipment requests from ServiceNo into our asset management app, updating the Entity model and some functions for returning LINQ to SQL results to fill in missing information no longer supplied. Along with this, I am currently making changes to the app in order to help facilitate the future adoption of our process by our counterparts in the United Kingdom.
       </p>
       <p>
         I am currently learning about
