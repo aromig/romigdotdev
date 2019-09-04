@@ -2,7 +2,7 @@
   <section class="skill-card">
     <h4 class="skill-heading">{{ skillHeading.name }}</h4>
     <ul class="skill-list">
-      <li v-for="skillItem in skillHeading.list">
+      <li v-for="skillItem in skillHeading.list" :key="skillItem">
         <span :class="'level-' + skillItem.level"></span
         ><em>{{ skillItem.skill }}</em>
       </li>
