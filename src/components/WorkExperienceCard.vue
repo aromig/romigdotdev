@@ -2,25 +2,29 @@
   <section class="experience-card">
     <div class="experience-heading">
       <h4 class="experience-title">
-        {{ experienceItem.position }}<br /><span class="experience-company">{{
-          experienceItem.company
-        }}</span>
+        {{ experienceItem.position }}<br /><span class="experience-company"
+          ><a :href="experienceItem.website" target="_blank">
+            {{ experienceItem.company }}</a
+          ><br /><small>{{ experienceItem.summary }}</small></span
+        >
       </h4>
       <span class="experience-dates">
-        {{ dateMonthYear(experienceItem.startDate) }} to
+        <span v-if="experienceItem.startDate"
+          >{{ dateMonthYear(experienceItem.startDate) }} to</span
+        >
         {{ dateMonthYear(experienceItem.endDate) }}
       </span>
     </div>
     <ul class="experience-highlights">
-      <li v-for="highlight in experienceItem.highlights">
+      <li v-for="highlight in experienceItem.highlights" :key="highlight">
         {{ highlight }}
       </li>
     </ul>
 
-    <div class="experience-projects">
+    <div class="experience-projects" v-if="experienceItem.projects">
       <h4>Projects</h4>
       <ul class="experience-projects-list">
-        <li v-for="project in experienceItem.projects">
+        <li v-for="project in experienceItem.projects" :key="project">
           <span v-if="project.stub">
             <g-link :to="project.stub">{{ project.name }}</g-link>
           </span>
@@ -75,6 +79,7 @@ export default {
 a {
   text-decoration: none;
 }
+
 .experience-card {
   margin-bottom: 25px;
 }
@@ -95,6 +100,12 @@ a {
 .experience-highlights,
 .experience-projects-list {
   margin-left: -15px;
+  list-style-type: none;
+  li:before {
+    content: "‣";
+    margin-left: -20px;
+    margin-right: 10px;
+  }
 }
 
 .experience-projects {
