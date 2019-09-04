@@ -6,7 +6,7 @@
     "email": "adam@romig.dev",
     "phone": "",
     "website": "https://romig.dev",
-    "summary": "I am looking to fill a full-time role as a developer be it on the web, apps, or scripting.",
+    "summary": "I am looking to fill a full-time role as a developer - front-end or back-end. My experience with development, troubleshooting, and logistics would be a great asset for any team.",
     "skills": [
       {
         "name": "Programming",
@@ -26,7 +26,7 @@
         "list": [
           { "skill": "ASP.Net", "level": "3" },
           { "skill": "WebForms", "level": "4" },
-          { "skill": "WebAPI", "level": "1" },
+          { "skill": "WebAPI", "level": "2" },
           { "skill": "Vue.js", "level": "2" }
         ]
       },
@@ -94,17 +94,22 @@
     "workExperience": [
       {
         "company": "RELX Group",
-        "position": "Tech Support Specialist II & Developer",
+        "position": "Tech Support Specialist II & Web Developer",
         "website": "http://relx.com",
-        "startDate": "2006-02-06",
+        "startDate": "2001-06-11",
         "endDate": "Present",
-        "summary": "",
+        "summary": "Developing solutions to ease the lives of my team & customers.",
         "highlights": [
-          "Provide 2nd Level Support for customer PC & Mac desktops, laptops, and mobile devices.",
-          "Responsible for coordinating logistics of equipment deployment & inventory management for campus, remote offices, and home-based customers.",
-          "Created documentation for training team interns in standard processes.",
-          "Designed and maintain SQL databases for web apps, occasionally writing custom queries for management reports.",
-          "Utilized programming knowledge to drive process improvement through web applications & automation scripts."
+          "Developed and maintained team's asset management (PAM) web application that has streamlined hardware-related processes from acquisition to retirement, providing more accurate tracking of equipment and reporting for management & Asset Accounting.",
+          "Created a RESTful web service to facilitate PAM's integration with workflows in ServiceNow.",
+          "Mocked and built templates for an innovation feedback tool run on the UserVoice SaaS platform.",
+          "Provided styling changes using Sass/SCSS to reflect branding and the best user experience for the Service Desk's ChatBot.",
+          "Developed a small workflow web application to route software requests to proper support teams, allowing managers to approve & track their progress.",
+          "Redesigned a survey application that tracks customer satisfaction for support teams. The tool also allowed teams & individuals to view results for continuous improvement.",
+          "Drove process improvement through web applications & automation scripts written in PowerShell & Bash.",
+          "Designed & maintained relational SQL databases for web apps, occasionally writing custom queries for management reports.",
+          "Also responsible for coordinating logistics of equipment deployment & inventory management for campus, remote offices, and home-based customers.",
+          "Created documentation of standard processes regarding configurations."
         ],
         "projects": [
           {
@@ -126,29 +131,46 @@
             "name": "PC Asset Management",
             "stack": "ASP.Net, C#, T-SQL",
             "stub": "/projects/pc-asset-management-pam"
+          },
+          {
+            "name": "Software Request Form",
+            "stack": "ASP.Net, C#, T-SQL, LDAP",
+            "stub": ""
+          },
+          {
+            "name": "Desktop Support Survey Tool",
+            "stack": "ASP.Net, C#, T-SQL",
+            "stub": ""
           }
         ]
       },
       {
-        "company": "LexisNexis",
-        "position": "Hardware Engineer",
-        "website": "http://lexisnexis.com",
-        "startDate": "2001-06-11",
-        "endDate": "2006-02-05",
-        "summary": "",
+        "company": "Cold Callers Guild",
+        "position": "Web Developer",
+        "website": "http://mmocentralforums.com/ccg/",
+        "startDate": "2015-04-01",
+        "endDate": "2015-06-29",
+        "summary": "Built a new & secure site for MMOCentralForums.com's hosted gaming group.",
         "highlights": [
-          "Provided second level support to internal employees in regards to computer hardware issues.",
-          "Managed network printer environment",
-          "Purchased printer supplies & reported total cost of ownership projections to management.",
-          "Purchased & managed inventory of computer equipment within the distribution center.",
-          "Developed a web application for streamlining PC acquisition and deployment."
-        ],
-        "projects": [
-          {
-            "name": "PC Asset Management",
-            "stack": "ASP, VBScript, T-SQL",
-            "stub": ""
-          }
+          "Easy & Secure Registration & Login - Utilizes host forum's vBulletin API to determine identity, allowing only certified members to access certain areas based on usergroup.",
+          "User Profiles - Provided a custom CRUD interface for users to display their characters and track their progress offline from the game.",
+          "Member List - Interactive listing of characters with search, sort, and paging features.",
+          "Event Schedules - AJAX-powered schedule dynamically displays times for game events based on day of the week, automatically adjusting for Daylight Saving & British Summer Time.",
+          "Run Reporting - Battle reports can be submitted on a dynamic form that auto-populates controls based on other user input values. These victories can be viewed based on specific dates.",
+          "Admin Control Panel - Provided an adminstrator-only page for user & report CRUD operations as well as showing a simple dashboard of site statistics.",
+          "Built with HTML, CSS, PHP, mySQL, and JavaScript."
+        ]
+      },
+      {
+        "company": "News Barometer",
+        "position": "Web Developer",
+        "website": "http://newsbarometer.com",
+        "startDate": "",
+        "endDate": "2008-06-01",
+        "summary": "Redesigned a weekly publication site for a local newspaper in the Florida Keys.",
+        "highlights": [
+          "Redesign provides a cleaner interface, direct weekly publishing via WordPress CMS, and access to archive editions.",
+          "Customized WordPress theme to show content in a weekly format, instead of daily, to match the print publication."
         ]
       }
     ],
@@ -160,22 +182,10 @@
         "stub": "/projects/romig-dev"
       },
       {
-        "name": "Cold Callers Guild",
-        "date": "2015-06-29",
-        "stack": "PHP, mySQL, JavaScript, AJAX",
-        "stub": "/projects/cold-callers-guild"
-      },
-      {
         "name": "Meep 2016",
         "date": "2014-07-24",
         "stack": "PHP, mySQL, WordPress, Photoshop",
         "stub": "/projects/meep-2016"
-      },
-      {
-        "name": "News Barometer",
-        "date": "2008-06-29",
-        "stack": "PHP, mySQL, WordPress",
-        "stub": "/projects/news-barometer"
       }
     ],
     "codeSamples": [
