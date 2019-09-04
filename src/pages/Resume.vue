@@ -13,28 +13,34 @@
     <p>{{ $options.resume.summary }}</p>
 
     <h3 class="resume-section">Skills</h3>
-    <div v-for="skillHeading in $options.resume.skills">
+    <div v-for="skillHeading in $options.resume.skills" :key="skillHeading">
       <SkillCard :skillHeading="skillHeading" />
     </div>
 
     <h3 class="resume-section">Education</h3>
-    <div v-for="educationItem in $options.resume.education">
+    <div
+      v-for="educationItem in $options.resume.education"
+      :key="educationItem"
+    >
       <EducationCard :educationItem="educationItem" />
     </div>
 
     <h3 class="resume-section">Work Experience</h3>
-    <div v-for="experienceItem in $options.resume.workExperience">
+    <div
+      v-for="experienceItem in $options.resume.workExperience"
+      :key="experienceItem"
+    >
       <WorkExperienceCard :experienceItem="experienceItem" />
     </div>
 
     <h3 class="resume-section">Personal Projects</h3>
-    <div v-for="project in $options.resume.personalProjects">
+    <div v-for="project in $options.resume.personalProjects" :key="project">
       <PersonalExperienceCard :project="project" />
     </div>
 
     <h3 class="resume-section">Code Samples</h3>
     <ul class="code-samples">
-      <li v-for="site in $options.resume.codeSamples">
+      <li v-for="site in $options.resume.codeSamples" :key="site">
         <a
           :href="site.url"
           :aria-label="`Go to my profile on ${site.network}`"
@@ -81,8 +87,14 @@ li {
 
 .code-samples {
   margin-left: -15px;
-  & > li {
+  list-style-type: none;
+  li {
     font-size: 1rem;
+    &:before {
+      content: "‣";
+      margin-left: -20px;
+      margin-right: 10px;
+    }
   }
 }
 
