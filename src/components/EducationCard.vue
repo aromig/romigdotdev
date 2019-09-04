@@ -18,7 +18,7 @@
       </span>
     </div>
     <ul class="education-highlights">
-      <li v-for="highlight in educationItem.highlights">
+      <li v-for="highlight in educationItem.highlights" :key="highlight">
         {{ highlight }}
       </li>
     </ul>
@@ -81,6 +81,12 @@ export default {
 
 .education-highlights {
   margin-left: -15px;
+  list-style-type: none;
+  li:before {
+    content: "‣";
+    margin-left: -20px;
+    margin-right: 10px;
+  }
 }
 
 @media (max-width: 700px) {
