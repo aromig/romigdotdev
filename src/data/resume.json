@@ -182,6 +182,12 @@
         "stub": "/projects/romig-dev"
       },
       {
+        "name": "cakes.romig.dev",
+        "date": "2019-04-30",
+        "stack": "JavaScript, Vue.js, CSS Grid",
+        "stub": "/projects/my-cakes"
+      },
+      {
         "name": "Meep 2016",
         "date": "2014-07-24",
         "stack": "PHP, mySQL, WordPress, Photoshop",
