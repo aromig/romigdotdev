@@ -27,8 +27,8 @@
       ></a>
       <a
         :href="`https://dev.to/${profile.dev}`"
-        aria-label="Go to my Dev profile"
-        title="Dev Profile"
+        aria-label="Go to my DEV profile"
+        title="DEV Profile"
         ><FA-Icon :icon="['fab', 'dev']" class="fa-lg"></FA-Icon
       ></a>
     </div>
