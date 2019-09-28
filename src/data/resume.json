@@ -11,43 +11,44 @@
       {
         "name": "Programming",
         "list": [
-          { "skill": "HTML5", "level": "4" },
-          { "skill": "CSS3", "level": "4" },
-          { "skill": "Sass", "level": "2" },
-          { "skill": "JavaScript", "level": "3" },
-          { "skill": "PHP", "level": "3" },
-          { "skill": "C#", "level": "3" },
-          { "skill": "Bash", "level": "2" },
+          { "skill": "HTML5", "level": 3 },
+          { "skill": "CSS3", "level": 3 },
+          { "skill": "Sass", "level": 2 },
+          { "skill": "JavaScript", "level": 3 },
+          { "skill": "PHP", "level": 3 },
+          { "skill": "C#", "level": 3 },
+          { "skill": "Bash", "level": 3 },
           { "skill": "PowerShell", "level": 2 }
         ]
       },
       {
         "name": "Frameworks",
         "list": [
-          { "skill": "ASP.Net", "level": "3" },
-          { "skill": "WebForms", "level": "4" },
-          { "skill": "WebAPI", "level": "2" },
-          { "skill": "Vue.js", "level": "2" }
+          { "skill": "ASP.Net", "level": 3 },
+          { "skill": "WebForms", "level": 3 },
+          { "skill": "WebAPI", "level": 3 },
+          { "skill": "Vue.js", "level": 2 },
+          { "skill": "Jest (Unit Testing)", "level": 1 }
         ]
       },
       {
         "name": "Databases & APIs",
         "list": [
-          { "skill": "T-SQL", "level": "4" },
-          { "skill": "mySQL", "level": "3" },
-          { "skill": "GraphQL", "level": "1" },
-          { "skill": "SSIS", "level": "2" },
-          { "skill": "Entity", "level": "2" },
-          { "skill": "LINQ", "level": "2" }
+          { "skill": "SQL Server", "level": 3 },
+          { "skill": "SSIS", "level": 3 },
+          { "skill": "Entity", "level": 2 },
+          { "skill": "LINQ", "level": 3 },
+          { "skill": "mySQL", "level": 3 },
+          { "skill": "GraphQL", "level": 2 }
         ]
       },
       {
         "name": "Tools",
         "list": [
-          { "skill": "Visual Studio", "level": "3" },
-          { "skill": "VS Code", "level": "4" },
-          { "skill": "Git", "level": "3" },
-          { "skill": "Photoshop", "level": "4" }
+          { "skill": "Visual Studio", "level": 3 },
+          { "skill": "VS Code", "level": 3 },
+          { "skill": "Git", "level": 2 },
+          { "skill": "Photoshop", "level": 3 }
         ]
       }
     ],
