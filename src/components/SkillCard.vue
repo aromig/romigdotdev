@@ -2,7 +2,11 @@
   <section class="skill-card">
     <h4 class="skill-heading">{{ skillHeading.name }}</h4>
     <ul class="skill-list">
-      <li v-for="skillItem in skillHeading.list" :key="skillItem">
+      <li
+        v-for="skillItem in skillHeading.list"
+        :key="skillItem.skill"
+        :title="skillLevel(skillItem.level)"
+      >
         <span :class="'level-' + skillItem.level"></span
         ><em>{{ skillItem.skill }}</em>
       </li>
@@ -14,6 +18,22 @@
 export default {
   props: {
     skillHeading: { type: Object }
+  },
+  methods: {
+    skillLevel: skill => {
+      switch (skill) {
+        case 1:
+          return "Learning";
+        case 2:
+          return "Novice";
+        case 3:
+          return "Intermediate";
+        case 4:
+          return "Advanced";
+        case 5:
+          return "Expert";
+      }
+    }
   },
   name: "SkillCard"
 };

@@ -13,14 +13,17 @@
     <p>{{ $options.resume.summary }}</p>
 
     <h3 class="resume-section">Skills</h3>
-    <div v-for="skillHeading in $options.resume.skills" :key="skillHeading">
+    <div
+      v-for="skillHeading in $options.resume.skills"
+      :key="skillHeading.name"
+    >
       <SkillCard :skillHeading="skillHeading" />
     </div>
 
     <h3 class="resume-section">Education</h3>
     <div
       v-for="educationItem in $options.resume.education"
-      :key="educationItem"
+      :key="educationItemKey(educationItem)"
     >
       <EducationCard :educationItem="educationItem" />
     </div>
@@ -28,19 +31,22 @@
     <h3 class="resume-section">Work Experience</h3>
     <div
       v-for="experienceItem in $options.resume.workExperience"
-      :key="experienceItem"
+      :key="experienceItemKey(experienceItem)"
     >
       <WorkExperienceCard :experienceItem="experienceItem" />
     </div>
 
     <h3 class="resume-section">Personal Projects</h3>
-    <div v-for="project in $options.resume.personalProjects" :key="project">
+    <div
+      v-for="project in $options.resume.personalProjects"
+      :key="project.name"
+    >
       <PersonalExperienceCard :project="project" />
     </div>
 
     <h3 class="resume-section">Code Samples</h3>
     <ul class="code-samples">
-      <li v-for="site in $options.resume.codeSamples" :key="site">
+      <li v-for="site in $options.resume.codeSamples" :key="site.network">
         <a
           :href="site.url"
           :aria-label="`Go to my profile on ${site.network}`"
@@ -66,6 +72,14 @@ export default {
     };
   },
   resume: resumeJSON.resume,
+  methods: {
+    educationItemKey: educationItem => {
+      return educationItem.studyType + " " + educationItem.area;
+    },
+    experienceItemKey: experienceItem => {
+      return experienceItem.position + " " + experienceItem.company;
+    }
+  },
   components: {
     SkillCard,
     EducationCard,
@@ -105,13 +119,14 @@ li {
     flex: 1;
     text-align: right;
     a {
+      border: 0.5px solid #333;
       background-color: #fff;
-      appearance: button;
       text-decoration: none;
       color: initial;
       padding: 5px;
       &:hover {
         color: #369;
+        border-color: #369;
       }
     }
   }

@@ -24,7 +24,7 @@
     <div class="experience-projects" v-if="experienceItem.projects">
       <h4>Projects</h4>
       <ul class="experience-projects-list">
-        <li v-for="project in experienceItem.projects" :key="project">
+        <li v-for="project in experienceItem.projects" :key="project.name">
           <span v-if="project.stub">
             <g-link :to="project.stub">{{ project.name }}</g-link>
           </span>
