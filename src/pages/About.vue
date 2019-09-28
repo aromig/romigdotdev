@@ -45,7 +45,7 @@
         </ul>
       </p>
       <p>
-        I also come from a support background so customer service, troubleshooting issues, coordinating logistics, and finding solutions is second nature to me. 
+        I also come from a support background so customer service, troubleshooting issues, coordinating logistics, and finding solutions are second nature to me. 
       </p>
       <h2>What I'm working on</h2>
       <p>

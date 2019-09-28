@@ -5,9 +5,16 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "Adam Romig",
-  siteUrl: "https://romig.dev",
-  siteDescription: "Personal Site & Blog for Adam Romig",
+  metadata: {
+    siteName: "Adam Romig",
+    siteUrl: "https://romig.dev",
+    siteDescription: "Personal Site & Blog for Adam Romig"
+  },
+  templates: {
+    Post: "/blog/:title",
+    Project: "/projects/:title",
+    GraphicProject: "/projects/g/:title"
+  },
   transformers: {
     remark: {
       externalLinksTarget: "_blank",
@@ -26,7 +33,6 @@ module.exports = {
       options: {
         path: "blog/**/*.md",
         typeName: "Post",
-        route: "/blog/:slug",
         remark: {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],
@@ -39,7 +45,6 @@ module.exports = {
       options: {
         path: "projects-web/**/*.md",
         typeName: "Project",
-        route: "/projects/:slug",
         remark: {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],
@@ -52,7 +57,6 @@ module.exports = {
       options: {
         path: "projects-graphics/**/*.md",
         typeName: "GraphicProject",
-        route: "/projects/g/:slug",
         remark: {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"],

@@ -86,8 +86,6 @@ query Projects {
 </static-query>
 
 <script>
-import { Pager } from "gridsome";
-
 export default {
   metaInfo() {
     return {
@@ -119,9 +117,6 @@ export default {
         }
       ]
     };
-  },
-  components: {
-    Pager
   }
 };
 </script>

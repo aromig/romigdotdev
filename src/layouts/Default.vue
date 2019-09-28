@@ -3,7 +3,7 @@
     <header class="header">
       <div class="site-logo">
         <g-image src="/assets/images/logo-icon.png" />
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
+        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
       </div>
       <NavMenu />
     </header>
@@ -18,7 +18,7 @@
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }
