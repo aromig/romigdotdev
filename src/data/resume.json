@@ -15,10 +15,9 @@
           { "skill": "CSS3", "level": 3 },
           { "skill": "Sass", "level": 2 },
           { "skill": "JavaScript", "level": 3 },
-          { "skill": "PHP", "level": 3 },
           { "skill": "C#", "level": 3 },
-          { "skill": "Bash", "level": 3 },
-          { "skill": "PowerShell", "level": 2 }
+          { "skill": "PHP", "level": 3 },
+          { "skill": "Bash", "level": 3 }
         ]
       },
       {
@@ -28,7 +27,7 @@
           { "skill": "WebForms", "level": 3 },
           { "skill": "WebAPI", "level": 3 },
           { "skill": "Vue.js", "level": 2 },
-          { "skill": "Jest (Unit Testing)", "level": 1 }
+          { "skill": "Mocha (Unit Testing)", "level": 1 }
         ]
       },
       {
