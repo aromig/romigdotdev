@@ -57,7 +57,8 @@ import { Pager } from "gridsome";
 export default {
   metaInfo() {
     return {
-      title: "Blog"
+      title: "Blog",
+      titleTemplate: "%s | romig.dev"
     };
   },
   components: {

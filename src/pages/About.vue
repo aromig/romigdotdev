@@ -74,7 +74,8 @@
 <script>
 export default {
   metaInfo: {
-    title: "About me"
+    title: "About me",
+    titleTemplate: "%s | romig.dev"
   }
 };
 </script>

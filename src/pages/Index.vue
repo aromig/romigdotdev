@@ -90,6 +90,7 @@ export default {
   metaInfo() {
     return {
       title: "Home",
+      titleTemplate: "%s | romig.dev",
       meta: [
         { name: "author", content: "Adam Romig" },
         { name: "description", content: "Personal Site & Blog for Adam Romig" },

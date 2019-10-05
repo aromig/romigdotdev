@@ -29,7 +29,8 @@
 export default {
   metaInfo() {
     return {
-      title: "Page Not Found"
+      title: "Page Not Found",
+      titleTemplate: "%s | romig.dev"
     };
   }
 };

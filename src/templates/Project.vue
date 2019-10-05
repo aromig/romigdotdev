@@ -30,7 +30,8 @@ import InfoCard from "~/components/InfoCard.vue";
 export default {
   metaInfo() {
     return {
-      title: `Project : ${this.$page.project.title}`
+      title: `Project : ${this.$page.project.title}`,
+      titleTemplate: "%s | romig.dev"
     };
   },
   components: {

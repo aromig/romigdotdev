@@ -14,7 +14,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  metaInfo() {
+    return {
+      title: "Email Sent!",
+      titleTemplate: "%s | romig.dev"
+    };
+  }
+};
 </script>
 
 <style>

@@ -59,7 +59,8 @@ import ProjectCard from "~/components/ProjectCard.vue";
 export default {
   metaInfo() {
     return {
-      title: "Projects"
+      title: "Projects",
+      titleTemplate: "%s | romig.dev"
     };
   },
   components: {

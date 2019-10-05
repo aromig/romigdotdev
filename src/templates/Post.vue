@@ -39,6 +39,7 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
+      titleTemplate: "%s | romig.dev",
       meta: [
         { name: "author", content: "Adam Romig" },
         // Twitter card

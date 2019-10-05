@@ -68,7 +68,8 @@ import PersonalExperienceCard from "~/components/PersonalExperienceCard.vue";
 export default {
   metaInfo() {
     return {
-      title: "Resume"
+      title: "Resume",
+      titleTemplate: "%s | romig.dev"
     };
   },
   resume: resumeJSON.resume,

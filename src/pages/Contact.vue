@@ -70,7 +70,8 @@
 export default {
   metaInfo() {
     return {
-      title: "Contact Me"
+      title: "Contact Me",
+      titleTemplate: "%s | romig.dev"
     };
   },
   data() {
