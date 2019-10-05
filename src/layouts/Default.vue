@@ -121,7 +121,7 @@ p,
 li,
 form {
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #111;
 }
 

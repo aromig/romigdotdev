@@ -10,18 +10,17 @@
         :key="post.node.id"
         class="post-item"
       >
-        <g-image class="post-cover" :src="post.node.cover" />
-        <h3 class="post-title">{{ post.node.title }}</h3>
-        <span class="post-date">{{ post.node.date }}</span>
-        <p class="post-excerpt">{{ post.node.excerpt }}</p>
         <g-link
-          :to="post.node.path"
           class="post-link"
+          :to="post.node.path"
           :aria-label="`Read more about ${post.node.title}`"
           :title="`Read more about ${post.node.title}`"
-          >Read More
+        >
+          <g-image class="post-cover" :src="post.node.cover" />
+          <h3 class="post-title">{{ post.node.title }}</h3>
+          <span class="post-date">{{ post.node.date }}</span>
+          <p class="post-excerpt">{{ post.node.excerpt }}</p>
         </g-link>
-        <hr class="post-divider" />
       </div>
     </div>
     <Pager :info="$page.posts.pageInfo" class="pager" />
@@ -30,7 +29,7 @@
 
 <page-query>
 query Posts ($page: Int) {
-  posts: allPost (sortBy: "date", order: DESC, perPage: 5, page: $page) @paginate {
+  posts: allPost (sortBy: "date", order: DESC, perPage: 6, page: $page) @paginate {
     totalCount
     pageInfo {
       totalPages
@@ -69,42 +68,40 @@ export default {
 
 <style lang="scss" scoped>
 .post-list {
-  list-style-type: none;
-  & a:not(.post-cover-link) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  & a {
     text-decoration: none;
-    color: #369;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.3s;
-    &:hover {
-      border-bottom: 1px solid #369;
-      transition: border-bottom 0.3s;
-    }
   }
   .post-item {
+    margin: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+    }
     .post-title {
+      padding: 0 15px;
       font-size: 1.3rem;
       font-weight: 600;
       margin: 0;
     }
     .post-date {
+      padding: 0 15px;
       font-weight: 300;
     }
     .post-excerpt {
+      padding: 0 15px;
+      font-size: 85%;
       font-weight: 400;
-    }
-    .post-link {
-      text-transform: uppercase;
-      font-weight: 600;
     }
     .post-cover {
       object-fit: cover;
       object-position: 50% 50%;
       width: 100%;
-      max-height: 100px;
+      height: 200px;
       border: 1px solid #ccc;
-    }
-    hr.post-divider {
-      margin: 0.5rem 0 2rem;
     }
   }
 }
@@ -135,6 +132,9 @@ export default {
 }
 
 @media (max-width: 700px) {
+  .post-list {
+    grid-template-columns: 1fr;
+  }
   .pager {
     width: 100%;
   }

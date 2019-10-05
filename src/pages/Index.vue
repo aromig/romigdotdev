@@ -125,7 +125,7 @@ export default {
 .latest-post {
   .latest-post-cover {
     object-fit: cover;
-    object-position: 0 0;
+    object-position: center;
     width: 100%;
     max-height: 330px;
     border: 1px solid #444;

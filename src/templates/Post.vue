@@ -73,7 +73,7 @@ export default {
 <style lang="scss">
 .post-cover {
   object-fit: cover;
-  object-position: 0 0;
+  object-position: center;
   width: 100%;
   max-height: 330px;
   border: 1px solid #444;
@@ -200,8 +200,8 @@ details {
       width: 250px;
       margin-left: 10px;
       padding: 15px;
-      border: 0.5px solid #ccc;
-      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+      // border: 0.5px solid #ccc;
+      // box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
       ul {
         list-style-type: square;
         li {
@@ -227,9 +227,9 @@ details {
     .article_nav,
     .article_aside {
       padding: 15px;
-      border: 0.5px solid #ccc;
-      border-left: none;
-      border-right: none;
+      // border: 0.5px solid #ccc;
+      // border-left: none;
+      // border-right: none;
       ul {
         list-style-type: square;
         li {
