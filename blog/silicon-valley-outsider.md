@@ -21,15 +21,15 @@ From a 2 bedroom apartment connected to the outside world on a mostly-stable bla
 
 A month later, Mike Cassidy, a columnist at SiliconValley.com (now Mercury News), interviewed David and wrote [an article about the site](https://web.archive.org/web/19991127150259/http://www.mercurycenter.com/svtech/columns/dispatches/docs/mc110799.htm). Being one who chronicles Silicon Valley's unique and sometimes flabbergasting culture, Mike could see the humor in David's exaggerated prodding towards the Valley.
 
-<div class="article_aside">
-  <img src="/assets/images/blog/Beenz.com-logo.png" alt="Beenz.com logo" title="Beenz.com logo">
-  <small>Thanks to David's work (probably) at Beenz.com and their crazy internet currency, we had a very merry Christmas in 2000.</small>
-</div>
-
 Week after week, short snippy articles were sent up to the web. Every week, a small part of the internet was amused. It was all very short-lived though - 11 issues in all. David ended up moving out to Sunnyvale four months after launch and worked at a couple of start-ups before the dot-com bubble burst. He's still out there and doing fairly well in the tech industry still. Mike did write [a follow-up article](https://web.archive.org/web/20000610031628/http://www.mercurycenter.com/svtech/columns/dispatches/docs/mc022700.htm) on David's change of scenery and if he feels different about the Bay Area now that he's a part of it. 🤷‍♂️
 
 > "If you can't beat them, join them, I guess. I can either stay in Ohio and mock them for making millions and millions of dollars or I can move out."
 >
 > &mdash; David Orth
+
+<div class="article_aside">
+  <img src="/assets/images/blog/Beenz.com-logo.png" alt="Beenz.com logo" title="Beenz.com logo">
+  <small>Thanks to David's work (probably) at Beenz.com and their crazy internet currency, we had a very merry Christmas in 2000.</small>
+</div>
 
 It was a good albeit very short run and I do miss seeing David around ever since he traded the Miami Valley for Silicon Valley. Something the other day just reminded me of him, the web site, and the fun we had setting everything up. It was just coincidence that its 20th anniversary was coming up. Take a browse through [its back issues](http://yiffy.com/siliconvalley/backissues.html) and breathe in one man's take on Silicon Valley's culture at the turn of the century.
