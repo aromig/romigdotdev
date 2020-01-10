@@ -113,7 +113,7 @@ export default {
     //border-radius: 5px;
   }
   code {
-    font-size: 0.9rem;
+    font-size: 14px; //  0.9rem;
     font-family: "Dank Mono", "Fira Code", Inconsolata, "Source Code Pro",
       monospace;
     &.shiki-inline {
