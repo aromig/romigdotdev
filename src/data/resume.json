@@ -113,6 +113,11 @@
         ],
         "projects": [
           {
+            "name": "RECreate",
+            "stack": "PowerShell, Active Directory",
+            "stub": ""
+          },
+          {
             "name": "iSpark",
             "stack": "CSS, Liquid Template Engine",
             "stub": "/projects/i-spark"
@@ -145,10 +150,23 @@
         ]
       },
       {
+        "company": "Wayne Music Club",
+        "position": "Board Member (Webmaster)",
+        "website": "https://wayneband.com/",
+        "startDate": "2020-02-02",
+        "endDate": "2020-03-08",
+        "summary": "Redesigned the web site for the Wayne Music Club, the organization that supports the band programs at Wayne High School.",
+        "highlights": [
+          "Worked with their existing WordPress installation, using its resources as a headless CMS (via its REST API) on a custom built Vue.js site.",
+          "Created custom endpoints for posting videos, photos, and events.",
+          "Built with Vue.js, JavaScript, WordPress REST API"
+        ]
+      },
+      {
         "company": "Cold Callers Guild",
         "position": "Web Developer",
         "website": "http://mmocentralforums.com/ccg/",
-        "startDate": "2015-04-01",
+        "startDate": "2015-04-02",
         "endDate": "2015-06-29",
         "summary": "Built a new & secure site for MMOCentralForums.com's hosted gaming group.",
         "highlights": [
