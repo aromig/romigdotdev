@@ -153,10 +153,11 @@
         "company": "Wayne Music Club",
         "position": "Board Member (Webmaster)",
         "website": "https://wayneband.com/",
-        "startDate": "2020-01-01",
+        "startDate": "2020-01-02",
         "endDate": "Present",
-        "summary": "Redesigned the web site for the Wayne Music Club, the organization that supports the band programs at Wayne High School.",
+        "summary": "Maintain web site & hosting and content publishing.",
         "highlights": [
+          "Redesigned and built a new web site for the organization that supports the band programs at Wayne High School.",
           "Worked with their existing WordPress installation, using its resources as a headless CMS (via its REST API) on a custom built Vue.js site.",
           "Created custom endpoints for posting videos, photos, and events.",
           "Built with Vue.js, JavaScript, WordPress REST API"
