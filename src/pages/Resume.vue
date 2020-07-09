@@ -3,7 +3,7 @@
     <header class="resume_header">
       <h2>Resume</h2>
       <div class="pdf_download">
-        <a href="/assets/docs/AdamRomig_Resume2019.pdf" target="_blank">
+        <a href="/assets/docs/AdamRomig_Resume2020.pdf" target="_blank">
           <FA-Icon :icon="['far', 'file-pdf']" class="fa-lg"></FA-Icon> Download
           PDF</a
         >
@@ -74,10 +74,10 @@ export default {
   },
   resume: resumeJSON.resume,
   methods: {
-    educationItemKey: educationItem => {
+    educationItemKey: (educationItem) => {
       return educationItem.studyType + " " + educationItem.area;
     },
-    experienceItemKey: experienceItem => {
+    experienceItemKey: (experienceItem) => {
       return experienceItem.position + " " + experienceItem.company;
     }
   },
