@@ -7,24 +7,24 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/free-brands-svg-icons": "^5.9.0",
-    "@fortawesome/free-regular-svg-icons": "^5.9.0",
-    "@fortawesome/free-solid-svg-icons": "^5.9.0",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
-    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/remark-prismjs": "0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
     "@gridsome/transformer-remark": "^0.6.4",
-    "gridsome": "^0.7.17",
-    "gridsome-plugin-netlify-cms": "^1.0.7",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-remark-shiki": "^0.3.0",
-    "netlify-cms": "^2.9.4",
+    "ini": "^2.0.0",
+    "serialize-javascript": "^5.0.1",
     "typeface-open-sans": "0.0.54",
     "typeface-open-sans-condensed": "0.0.72"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.3.1"
   }
 }
