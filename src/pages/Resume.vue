@@ -3,14 +3,23 @@
     <header class="resume_header">
       <h2>Resume</h2>
       <div class="pdf_download">
-        <a href="/assets/docs/AdamRomig_Resume2020.pdf" target="_blank">
+        <a href="/assets/docs/AdamRomig_Resume2021.pdf" target="_blank">
           <FA-Icon :icon="['far', 'file-pdf']" class="fa-lg"></FA-Icon> Download
           PDF</a
         >
       </div>
     </header>
-    <h3 class="resume-section">Summary</h3>
-    <p>{{ $options.resume.summary }}</p>
+    <section class="summary">
+    <div>
+      <h3 class="resume-section">Summary</h3>
+      <p>{{ $options.resume.summary }}</p>
+    </div>
+
+    <g-image
+        src="/assets/images/profile_pic_400x400.jpg"
+        class="profile-pic"
+      />
+    </section>
 
     <h3 class="resume-section">Skills</h3>
     <div
@@ -100,6 +109,20 @@ li {
   border-bottom: 1px solid #369;
 }
 
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img.profile-pic {
+    flex-shrink: 0;
+    box-shadow: 0 0 25px #ccc;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .code-samples {
   margin-left: -15px;
   list-style-type: none;
@@ -129,6 +152,15 @@ li {
         color: #369;
         border-color: #369;
       }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .summary {
+    flex-direction: column-reverse;
+    img.profile-pic {
+      margin: 0 auto;
     }
   }
 }
