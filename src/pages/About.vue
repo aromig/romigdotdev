@@ -16,7 +16,7 @@
           I have an Associate's Degree of Applied Business from the <a href="http://www.utoledo.edu/" aria-label="University of Toledo" target="_blank" rel="nofollow">University of Toledo</a>, majoring in Programming &amp; Software Development, but a good portion of my current web development knowledge is self-taught.
         </p>
         <p>
-          When I'm not coding, I am making other things. I <a href="https://github.com/aromig/recipes">enjoy cooking</a> and <a href="https://cakes.romig.dev" target="_blank">baking cakes</a> for birthdays, special occasions or just for fun. At times I also find myself using hand &amp; power tools for on-the-job learning for home improvement projects or anything my wife can envision.
+          When I'm not coding, I am making other things. I <a href="https://github.com/aromig/recipes">enjoy cooking</a> and <a href="https://cakes.romig.dev" target="_blank">baking cakes</a> for birthdays, special occasions or just for fun. I also a board member for the Wayne Music Club, a non-profit that helps our high school band programs, so a good portion of my free time goes to assisting in concessions, their web site, parades, and taking photos.
         </p>
       </div>
       <g-image
@@ -45,17 +45,15 @@
         </ul>
       </p>
       <p>
-        I also come from a support background so customer service, troubleshooting issues, coordinating logistics, and finding solutions are second nature to me. 
+        I also come from a support background so customer service, troubleshooting issues, coordinating logistics, and finding solutions are second nature to me.
       </p>
       <h2>What I'm working on</h2>
       <p>
-        At work, I have been coding a new version of the REST API that imports equipment requests from ServiceNow into our asset management app, updating the Entity model and some functions for returning LINQ to SQL results that fill in no longer supplied information. Along with this, I am currently making changes to the main app in order to help facilitate the future adoption of our process by our counterparts in the United Kingdom.
+        I have recently accepted a software engineer position with another team in the company and am currently in my onboarding phase, learning about our processes, environment, and a lot about development with ServiceNow.
       </p>
       <p>
         I am currently learning about
-        <a href="https://vuejs.org" aria-label="Learn more about Vue JS" target="_blank" rel="nofollow">Vue.js</a> and I am
-        finding that its implementation of a front-end framework meshes very
-        well with how I have developed web applications in the past. Sites like <a href="https://www.vuemastery.com/" aria-label="Go to VueMastery.com" target="_blank" rel="nofollow">Vue Mastery</a> and developing this very site have given me a lot of practice in working with Vue and component-based structure.
+        ServiceNow and its various channels for development and user interaction. I've used the platform for many users as an ITIL user and there is a lot I am learning in these first few weeks on the job.
       </p>
     </section>
     <section class="this_site">

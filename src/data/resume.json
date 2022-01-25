@@ -24,10 +24,11 @@
         "name": "Frameworks",
         "list": [
           { "skill": "ASP.Net", "level": 3 },
-          { "skill": "WebForms", "level": 3 },
-          { "skill": "WebAPI", "level": 3 },
-          { "skill": "Vue.js", "level": 2 },
-          { "skill": "Mocha (Unit Testing)", "level": 1 }
+          { "skill": "WebForms", "level": 4 },
+          { "skill": "WebAPI", "level": 2 },
+          { "skill": "Vue.js", "level": 3 },
+          { "skill": "Mocha (Unit Testing)", "level": 1 },
+          { "skill": "ServiceNow", "level": 2 }
         ]
       },
       {
@@ -94,10 +95,18 @@
     "workExperience": [
       {
         "company": "LexisNexis",
+        "position": "Software Engineer",
+        "website": "http://lexisnexis.com",
+        "startDate": "2021-08-30",
+        "endDate": "Present",
+        "summary": "Supporting and developing solutions for our company's ServiceNow implentation."
+      },
+      {
+        "company": "LexisNexis",
         "position": "Tech Support Specialist II & IT Developer",
         "website": "http://lexisnexis.com",
         "startDate": "2001-06-11",
-        "endDate": "Present",
+        "endDate": "2021-08-29",
         "summary": "Developing solutions to ease the lives of my team & customers.",
         "highlights": [
           "Developed web apps, scripts, and tools to streamline & automate internal processes.",
