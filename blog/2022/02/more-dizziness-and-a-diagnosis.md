@@ -47,7 +47,7 @@ He did, however, suggest what my ENT had suspected at first, that I am suffering
 
 # Explaining PPPD
 
-What happens here is that during a vestibular crisis, the brain goes into a high-alert mode trying to overcompensate and fix the issues with dizziness & balance. And when a person gets better, the proper thing for the brain get out of this crisis-mode but this time it did not for me. My brain is on constant high alert that I might fall or stumble. It says hyper-vigilant with excessive self-monitoring of motion and continues with over reliance on vision for balance when it could just trust the vestibular (inner ear) and proprioception (signals from legs & feet) systems that I'm not in danger. Essentially communication between my vestibular system and brain is not working correctly.
+What happens here is that during a vestibular crisis, the brain goes into a high-alert mode trying to overcompensate and fix the issues with dizziness & balance. And when a person gets better, the proper thing is for the brain to get out of this crisis-mode but this time it did not for me. My brain is on constant high alert that I might fall or stumble. It says hyper-vigilant with excessive self-monitoring of motion and continues with over reliance on vision for balance when it could just trust the vestibular (inner ear) and proprioception (signals from legs & feet) systems that I'm not in danger. Essentially communication between my vestibular system and brain is not working correctly.
 
 ![PPPD Flow of Events](/assets/images/blog/2022-02-25_pppd_cycle.jpg)
 
