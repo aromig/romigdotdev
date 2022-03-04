@@ -49,11 +49,11 @@
       </p>
       <h2>What I'm working on</h2>
       <p>
-        I have recently accepted a software engineer position with another team in the company and am currently in my onboarding phase, learning about our processes, environment, and a lot about development with ServiceNow.
+        I am currently developing within the ServiceNow platform, working on my assigned service requests, incidents, and stories. There's something new to learn every day!
       </p>
       <p>
         I am currently learning about
-        ServiceNow and its various channels for development and user interaction. I've used the platform for many users as an ITIL user and there is a lot I am learning in these first few weeks on the job.
+        ServiceNow and its various channels for development and user interaction. I've used the platform for many years as an ITIL user and there is still a lot for me to learn.
       </p>
     </section>
     <section class="this_site">
