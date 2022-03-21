@@ -117,6 +117,8 @@ I think I can get the vestibular migraine under control eventually and limit tho
 
 [PPPD @ BalanceandDizziness.org](https://balanceanddizziness.org/disorders/vestibular-disorders/pppd/)
 
+[PPPD @ SeekingBalance.com (Joey Remenyi)](https://www.seekingbalance.com.au/pppd/)
+
 [PPPD @ Dizzy Cook](https://thedizzycook.com/persistent-postural-perceptual-dizziness-pppd-explained/)
 
 [Vestibular Migraines @ VeDA](https://vestibular.org/article/diagnosis-treatment/types-of-vestibular-disorders/vestibular-migraine/?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF4qeblqkDKKozsnfA5KQuknT1eIYYM2pX-5aai7Rh6qDgq2QDR8pJQaAtWaEALw_wcB)
