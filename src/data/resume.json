@@ -28,7 +28,7 @@
           { "skill": "WebAPI", "level": 2 },
           { "skill": "Vue.js", "level": 3 },
           { "skill": "Mocha (Unit Testing)", "level": 1 },
-          { "skill": "ServiceNow", "level": 2 }
+          { "skill": "ServiceNow", "level": 3 }
         ]
       },
       {
@@ -37,7 +37,8 @@
           { "skill": "SQL Server", "level": 3 },
           { "skill": "SSIS", "level": 3 },
           { "skill": "Entity", "level": 2 },
-          { "skill": "LINQ", "level": 3 },
+          { "skill": "LINQ", "level": 2 },
+          { "skill": "REST", "level": 3 },
           { "skill": "mySQL", "level": 3 },
           { "skill": "GraphQL", "level": 2 }
         ]
@@ -99,7 +100,14 @@
         "website": "http://lexisnexis.com",
         "startDate": "2021-08-30",
         "endDate": "Present",
-        "summary": "Supporting and developing solutions for our company's ServiceNow instances."
+        "summary": "Supporting and developing solutions for our company's ServiceNow instances.",
+        "highlights": [
+          "Developer and platform admin for production and non-production instances of ServiceNow.",
+          "Responsible for implementing modifications through requests and stories using low-code catalog items, order guides, workflows, widgets, and flows; as well as coding client scripts, business rules, script includes, and REST APIs.",
+          "Troubleshoot and resolve incidents users have with ServiceNow functionality, sometimes escalating to Now Support for advanced diagnosis.",
+          "Moderate administration of users, groups, roles, ACLs, work schedules, and change templates.",
+          "Document APIs in their configuration and proper uses."
+        ]
       },
       {
         "company": "LexisNexis",
@@ -159,7 +167,7 @@
         "position": "Board Member & Webmaster",
         "website": "https://wayneband.com/",
         "startDate": "2020-01-02",
-        "endDate": "Present",
+        "endDate": "2023-12-31",
         "summary": "Maintain web site & hosting and content publishing.",
         "highlights": [
           "Redesigned & built a new web site for non-profit organization that supports the band programs at Wayne High School, particularly the Wayne Marching Band & Warriorettes.",
