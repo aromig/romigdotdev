@@ -19,7 +19,7 @@
     "gridsome": "^0.7.23",
     "gridsome-plugin-remark-shiki": "^0.3.0",
     "ini": "^2.0.0",
-    "sanitize-html": "^2.5.0",
+    "sanitize-html": "^2.12.1",
     "serialize-javascript": "^5.0.1",
     "trim": "^1.0.1",
     "typeface-open-sans": "0.0.54",
